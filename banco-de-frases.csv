@@ -383,3 +383,523 @@ estudio,Estudio de dibujo,comida,Comida,sosteniendo una taza de café
 estudio,Estudio de dibujo,comida,Comida,comiendo una tostada con mermelada
 estudio,Estudio de dibujo,comida,Comida,con un plato de fruta fresca
 estudio,Estudio de dibujo,comida,Comida,sosteniendo un vaso de jugo de naranja
+fantasia,Fantasía medieval,personaje,Personaje,una princesa guerrera
+fantasia,Fantasía medieval,personaje,Personaje,un alquimista excéntrico
+fantasia,Fantasía medieval,personaje,Personaje,un cazador de dragones
+fantasia,Fantasía medieval,personaje,Personaje,un aprendiz de mago
+fantasia,Fantasía medieval,criatura,Criatura,un unicornio
+fantasia,Fantasía medieval,criatura,Criatura,un grifo
+fantasia,Fantasía medieval,criatura,Criatura,una hada del bosque
+fantasia,Fantasía medieval,criatura,Criatura,un basilisco
+fantasia,Fantasía medieval,animal,Animal,un ciervo blanco
+fantasia,Fantasía medieval,animal,Animal,una cabra montés
+fantasia,Fantasía medieval,animal,Animal,un búho nival
+fantasia,Fantasía medieval,animal,Animal,un zorro rojo
+fantasia,Fantasía medieval,vehiculo,Vehículo,una canoa élfica
+fantasia,Fantasía medieval,vehiculo,Vehículo,un trineo tirado por lobos
+fantasia,Fantasía medieval,vehiculo,Vehículo,una alfombra voladora
+fantasia,Fantasía medieval,vehiculo,Vehículo,un barco pirata de madera
+fantasia,Fantasía medieval,objeto,Objeto,una varita de madera tallada
+fantasia,Fantasía medieval,objeto,Objeto,un mapa del tesoro
+fantasia,Fantasía medieval,objeto,Objeto,una poción en un frasco
+fantasia,Fantasía medieval,objeto,Objeto,un libro de hechizos antiguo
+fantasia,Fantasía medieval,atributo,Atributo,con alas de dragón en la espalda
+fantasia,Fantasía medieval,atributo,Atributo,con una marca de nacimiento en forma de luna
+fantasia,Fantasía medieval,atributo,Atributo,con el cabello que cambia de color
+fantasia,Fantasía medieval,atributo,Atributo,con una voz que hipnotiza
+fantasia,Fantasía medieval,ropa,Ropa,con una capucha oscura
+fantasia,Fantasía medieval,ropa,Ropa,con una falda de cuero
+fantasia,Fantasía medieval,ropa,Ropa,con botas de siete leguas
+fantasia,Fantasía medieval,ropa,Ropa,con un vestido de gala élfico
+fantasia,Fantasía medieval,accesorio,Accesorio,con una diadema de plata
+fantasia,Fantasía medieval,accesorio,Accesorio,con un colgante en forma de dragón
+fantasia,Fantasía medieval,accesorio,Accesorio,con un cinturón con bolsas de pociones
+fantasia,Fantasía medieval,accesorio,Accesorio,con una capa con broche dorado
+fantasia,Fantasía medieval,arma,Arma,con una daga envenenada
+fantasia,Fantasía medieval,arma,Arma,con un báculo de mago
+fantasia,Fantasía medieval,arma,Arma,con una ballesta
+fantasia,Fantasía medieval,arma,Arma,con un mazo de guerra
+fantasia,Fantasía medieval,habilidad,Habilidad,que puede resucitar a los muertos
+fantasia,Fantasía medieval,habilidad,Habilidad,que domina la alquimia
+fantasia,Fantasía medieval,habilidad,Habilidad,que puede leer mentes
+fantasia,Fantasía medieval,habilidad,Habilidad,que convoca tormentas
+fantasia,Fantasía medieval,material,Material,hecho de plata élfica
+fantasia,Fantasía medieval,material,Material,hecho de cristal encantado
+fantasia,Fantasía medieval,material,Material,hecho de cuero curtido
+fantasia,Fantasía medieval,material,Material,hecho de mithril
+fantasia,Fantasía medieval,lugar,Lugar,dentro de un laberinto de piedra
+fantasia,Fantasía medieval,lugar,Lugar,en un mercado de un pueblo medieval
+fantasia,Fantasía medieval,lugar,Lugar,frente a una cueva de dragón
+fantasia,Fantasía medieval,lugar,Lugar,en las ruinas de un templo olvidado
+fantasia,Fantasía medieval,clima,Clima,bajo una llovizna mágica que brilla
+fantasia,Fantasía medieval,clima,Clima,con vientos helados del norte
+fantasia,Fantasía medieval,clima,Clima,durante un eclipse
+fantasia,Fantasía medieval,clima,Clima,bajo la luz de dos lunas
+fantasia,Fantasía medieval,accion,Acción,mientras prepara una poción
+fantasia,Fantasía medieval,accion,Acción,mientras monta guardia en la muralla
+fantasia,Fantasía medieval,accion,Acción,mientras negocia con un mercader
+fantasia,Fantasía medieval,accion,Acción,mientras invoca un hechizo
+fantasia,Fantasía medieval,planta,Planta,entre hongos luminosos
+fantasia,Fantasía medieval,planta,Planta,junto a un árbol que habla
+fantasia,Fantasía medieval,planta,Planta,rodeado de espinas mágicas
+fantasia,Fantasía medieval,planta,Planta,entre lirios negros
+fantasia,Fantasía medieval,comida,Comida,sosteniendo un cuerno de vino
+fantasia,Fantasía medieval,comida,Comida,comiendo un pastel de carne
+fantasia,Fantasía medieval,comida,Comida,con un plato de queso y uvas
+fantasia,Fantasía medieval,comida,Comida,sosteniendo miel en un frasco de barro
+editorial,Editorial y cartoon,personaje,Personaje,un repartidor apurado
+editorial,Editorial y cartoon,personaje,Personaje,una mamá multitasking
+editorial,Editorial y cartoon,personaje,Personaje,un turista perdido
+editorial,Editorial y cartoon,personaje,Personaje,un vendedor ambulante
+editorial,Editorial y cartoon,criatura,Criatura,un monstruo debajo de la cama asustado de la luz
+editorial,Editorial y cartoon,criatura,Criatura,un yeti tímido de oficina
+editorial,Editorial y cartoon,criatura,Criatura,un dinosaurio de peluche vivo
+editorial,Editorial y cartoon,criatura,Criatura,un robot doméstico anticuado
+editorial,Editorial y cartoon,animal,Animal,un loro imitador
+editorial,Editorial y cartoon,animal,Animal,un hámster en una rueda
+editorial,Editorial y cartoon,animal,Animal,un caniche peinado en exceso
+editorial,Editorial y cartoon,animal,Animal,un pez dorado saltarín
+editorial,Editorial y cartoon,vehiculo,Vehículo,un carrito de supermercado con una rueda chueca
+editorial,Editorial y cartoon,vehiculo,Vehículo,una moto de reparto
+editorial,Editorial y cartoon,vehiculo,Vehículo,un auto compacto mal estacionado
+editorial,Editorial y cartoon,vehiculo,Vehículo,una silla de oficina con ruedas
+editorial,Editorial y cartoon,objeto,Objeto,un termo de café derramado
+editorial,Editorial y cartoon,objeto,Objeto,una carpeta llena de papeles
+editorial,Editorial y cartoon,objeto,Objeto,un control remoto perdido
+editorial,Editorial y cartoon,objeto,Objeto,una calculadora vieja
+editorial,Editorial y cartoon,atributo,Atributo,con los pies hinchados de tanto caminar
+editorial,Editorial y cartoon,atributo,Atributo,con manchas de café en la camisa
+editorial,Editorial y cartoon,atributo,Atributo,con un tic nervioso en el ojo
+editorial,Editorial y cartoon,atributo,Atributo,con el estómago que suena fuerte
+editorial,Editorial y cartoon,ropa,Ropa,con pantuflas en la oficina
+editorial,Editorial y cartoon,ropa,Ropa,con un chaleco de seguridad naranja
+editorial,Editorial y cartoon,ropa,Ropa,con una gorra al revés
+editorial,Editorial y cartoon,ropa,Ropa,con medias que no combinan
+editorial,Editorial y cartoon,accesorio,Accesorio,con una libreta llena de post-its
+editorial,Editorial y cartoon,accesorio,Accesorio,con audífonos inalámbricos perdidos
+editorial,Editorial y cartoon,accesorio,Accesorio,con un botón de pánico en el llavero
+editorial,Editorial y cartoon,accesorio,Accesorio,con una insignia de empleado del mes
+editorial,Editorial y cartoon,arma,Arma,con un cuchillo de plástico para cortar torta
+editorial,Editorial y cartoon,arma,Arma,con una grapadora como arma improvisada
+editorial,Editorial y cartoon,arma,Arma,con un extintor
+editorial,Editorial y cartoon,arma,Arma,con una escoba
+editorial,Editorial y cartoon,habilidad,Habilidad,que confunde los nombres de todos
+editorial,Editorial y cartoon,habilidad,Habilidad,que hace chistes malos en momentos serios
+editorial,Editorial y cartoon,habilidad,Habilidad,que se queda dormido en las juntas
+editorial,Editorial y cartoon,habilidad,Habilidad,que siempre pierde las llaves
+editorial,Editorial y cartoon,material,Material,hecho de espuma de poliestireno
+editorial,Editorial y cartoon,material,Material,hecho de silicona
+editorial,Editorial y cartoon,material,Material,hecho de vidrio templado
+editorial,Editorial y cartoon,material,Material,hecho de fieltro
+editorial,Editorial y cartoon,lugar,Lugar,en la caja del supermercado
+editorial,Editorial y cartoon,lugar,Lugar,frente a una máquina expendedora rota
+editorial,Editorial y cartoon,lugar,Lugar,en el estacionamiento del mall
+editorial,Editorial y cartoon,lugar,Lugar,dentro de un ascensor lleno
+editorial,Editorial y cartoon,clima,Clima,bajo el aire acondicionado que no funciona
+editorial,Editorial y cartoon,clima,Clima,con calor húmedo pegajoso
+editorial,Editorial y cartoon,clima,Clima,en una ola de frío inesperada
+editorial,Editorial y cartoon,clima,Clima,bajo un ventilador que hace ruido
+editorial,Editorial y cartoon,accion,Acción,mientras intenta abrir un frasco que no cede
+editorial,Editorial y cartoon,accion,Acción,mientras busca estacionamiento
+editorial,Editorial y cartoon,accion,Acción,mientras hace fila para el baño
+editorial,Editorial y cartoon,accion,Acción,mientras arregla la impresora
+editorial,Editorial y cartoon,planta,Planta,junto a una planta artificial polvorienta
+editorial,Editorial y cartoon,planta,Planta,entre flores de plástico en un jarrón
+editorial,Editorial y cartoon,planta,Planta,cerca de un árbol de navidad fuera de temporada
+editorial,Editorial y cartoon,planta,Planta,con hierbas secas mal cuidadas
+editorial,Editorial y cartoon,comida,Comida,sosteniendo palomitas de microondas quemadas
+editorial,Editorial y cartoon,comida,Comida,con una pizza fría del día anterior
+editorial,Editorial y cartoon,comida,Comida,comiendo cereal directo de la caja
+editorial,Editorial y cartoon,comida,Comida,sosteniendo un batido derramándose
+cienciaficcion,Ciencia Ficción,personaje,Personaje,una androide con emociones
+cienciaficcion,Ciencia Ficción,personaje,Personaje,un cazarrecompensas espacial
+cienciaficcion,Ciencia Ficción,personaje,Personaje,un ingeniero de terraformación
+cienciaficcion,Ciencia Ficción,personaje,Personaje,una comandante de flota
+cienciaficcion,Ciencia Ficción,criatura,Criatura,un alien parásito
+cienciaficcion,Ciencia Ficción,criatura,Criatura,un robot gigante de combate
+cienciaficcion,Ciencia Ficción,criatura,Criatura,una criatura acuática bioluminiscente
+cienciaficcion,Ciencia Ficción,criatura,Criatura,un enjambre de drones con conciencia propia
+cienciaficcion,Ciencia Ficción,animal,Animal,un perro con prótesis robóticas
+cienciaficcion,Ciencia Ficción,animal,Animal,un gato con collar rastreador
+cienciaficcion,Ciencia Ficción,animal,Animal,un ave migratoria modificada
+cienciaficcion,Ciencia Ficción,animal,Animal,un pez con branquias artificiales
+cienciaficcion,Ciencia Ficción,vehiculo,Vehículo,un traje mecha
+cienciaficcion,Ciencia Ficción,vehiculo,Vehículo,una cápsula de escape
+cienciaficcion,Ciencia Ficción,vehiculo,Vehículo,un dron de carga
+cienciaficcion,Ciencia Ficción,vehiculo,Vehículo,un submarino de exploración profunda
+cienciaficcion,Ciencia Ficción,objeto,Objeto,un núcleo de energía portátil
+cienciaficcion,Ciencia Ficción,objeto,Objeto,un chip de memoria
+cienciaficcion,Ciencia Ficción,objeto,Objeto,una llave criptográfica
+cienciaficcion,Ciencia Ficción,objeto,Objeto,un dron de bolsillo
+cienciaficcion,Ciencia Ficción,atributo,Atributo,con un ojo cibernético
+cienciaficcion,Ciencia Ficción,atributo,Atributo,con venas que brillan de energía
+cienciaficcion,Ciencia Ficción,atributo,Atributo,con la mitad del cuerpo robótica
+cienciaficcion,Ciencia Ficción,atributo,Atributo,con piel translúcida bioluminiscente
+cienciaficcion,Ciencia Ficción,ropa,Ropa,con un exoesqueleto ligero
+cienciaficcion,Ciencia Ficción,ropa,Ropa,con una capa térmica reflectante
+cienciaficcion,Ciencia Ficción,ropa,Ropa,con botas magnéticas
+cienciaficcion,Ciencia Ficción,ropa,Ropa,con guantes aislantes de radiación
+cienciaficcion,Ciencia Ficción,accesorio,Accesorio,con un chip neural en la nuca
+cienciaficcion,Ciencia Ficción,accesorio,Accesorio,con lentes de escaneo biométrico
+cienciaficcion,Ciencia Ficción,accesorio,Accesorio,con un brazalete de navegación
+cienciaficcion,Ciencia Ficción,accesorio,Accesorio,con auriculares de traducción universal
+cienciaficcion,Ciencia Ficción,arma,Arma,con un cañón de iones
+cienciaficcion,Ciencia Ficción,arma,Arma,con una espada vibradora de energía
+cienciaficcion,Ciencia Ficción,arma,Arma,con un dron de ataque
+cienciaficcion,Ciencia Ficción,arma,Arma,con guantes electromagnéticos
+cienciaficcion,Ciencia Ficción,habilidad,Habilidad,que puede fusionar su mente con máquinas
+cienciaficcion,Ciencia Ficción,habilidad,Habilidad,que controla la gravedad
+cienciaficcion,Ciencia Ficción,habilidad,Habilidad,que puede clonarse a sí mismo
+cienciaficcion,Ciencia Ficción,habilidad,Habilidad,que predice fallas mecánicas antes de que ocurran
+cienciaficcion,Ciencia Ficción,material,Material,hecho de nanofibra autorreparable
+cienciaficcion,Ciencia Ficción,material,Material,hecho de titanio espacial
+cienciaficcion,Ciencia Ficción,material,Material,hecho de plasma condensado
+cienciaficcion,Ciencia Ficción,material,Material,hecho de polímero transparente
+cienciaficcion,Ciencia Ficción,lugar,Lugar,en una colonia subterránea marciana
+cienciaficcion,Ciencia Ficción,lugar,Lugar,dentro de un ascensor espacial
+cienciaficcion,Ciencia Ficción,lugar,Lugar,en un mercado alienígena
+cienciaficcion,Ciencia Ficción,lugar,Lugar,en las ruinas de una civilización extinta
+cienciaficcion,Ciencia Ficción,clima,Clima,bajo cielos con dos lunas visibles
+cienciaficcion,Ciencia Ficción,clima,Clima,en medio de una tormenta electromagnética
+cienciaficcion,Ciencia Ficción,clima,Clima,con nieve de otro color
+cienciaficcion,Ciencia Ficción,clima,Clima,bajo auroras artificiales generadas por la ciudad
+cienciaficcion,Ciencia Ficción,accion,Acción,mientras programa una inteligencia artificial
+cienciaficcion,Ciencia Ficción,accion,Acción,mientras navega por el espacio profundo
+cienciaficcion,Ciencia Ficción,accion,Acción,mientras negocia con una especie alienígena
+cienciaficcion,Ciencia Ficción,accion,Acción,mientras repara un traje espacial dañado
+cienciaficcion,Ciencia Ficción,planta,Planta,entre cultivos verticales automatizados
+cienciaficcion,Ciencia Ficción,planta,Planta,cerca de árboles clonados genéticamente
+cienciaficcion,Ciencia Ficción,planta,Planta,junto a algas bioluminiscentes
+cienciaficcion,Ciencia Ficción,planta,Planta,rodeado de flora extraterrestre desconocida
+cienciaficcion,Ciencia Ficción,comida,Comida,sosteniendo un cubo de proteína sintética
+cienciaficcion,Ciencia Ficción,comida,Comida,con una bebida de algas fermentadas
+cienciaficcion,Ciencia Ficción,comida,Comida,comiendo insectos cultivados en laboratorio
+cienciaficcion,Ciencia Ficción,comida,Comida,sosteniendo fruta impresa en 3D
+terror,Terror y misterio,personaje,Personaje,una monja poseída
+terror,Terror y misterio,personaje,Personaje,un niño con una muñeca idéntica a él
+terror,Terror y misterio,personaje,Personaje,un sonámbulo que no recuerda nada
+terror,Terror y misterio,personaje,Personaje,un vecino que nunca se ve de día
+terror,Terror y misterio,criatura,Criatura,un espantapájaros que se mueve
+terror,Terror y misterio,criatura,Criatura,una criatura sin rostro
+terror,Terror y misterio,criatura,Criatura,un payaso siniestro
+terror,Terror y misterio,criatura,Criatura,una aparición en el espejo
+terror,Terror y misterio,animal,Animal,un cuervo con un ala rota
+terror,Terror y misterio,animal,Animal,una serpiente en un frasco de formol
+terror,Terror y misterio,animal,Animal,un perro que aúlla sin razón
+terror,Terror y misterio,animal,Animal,una polilla gigante nocturna
+terror,Terror y misterio,vehiculo,Vehículo,un tren detenido en medio de la nada
+terror,Terror y misterio,vehiculo,Vehículo,un elevador que baja solo
+terror,Terror y misterio,vehiculo,Vehículo,una silla de ruedas vacía que se mueve
+terror,Terror y misterio,vehiculo,Vehículo,un bote a la deriva
+terror,Terror y misterio,objeto,Objeto,una vela que nunca se apaga
+terror,Terror y misterio,objeto,Objeto,una fotografía con una figura extra
+terror,Terror y misterio,objeto,Objeto,un teléfono antiguo que suena solo
+terror,Terror y misterio,objeto,Objeto,una llave que abre puertas que no existen
+terror,Terror y misterio,atributo,Atributo,con las venas negras visibles bajo la piel
+terror,Terror y misterio,atributo,Atributo,con la sombra que se mueve sola
+terror,Terror y misterio,atributo,Atributo,con una respiración que no coincide con su pecho
+terror,Terror y misterio,atributo,Atributo,con dedos anormalmente largos
+terror,Terror y misterio,ropa,Ropa,con un vestido de época deshecho
+terror,Terror y misterio,ropa,Ropa,con una máscara de gas antigua
+terror,Terror y misterio,ropa,Ropa,con un traje de payaso descosido
+terror,Terror y misterio,ropa,Ropa,con vendas cubriendo todo el cuerpo
+terror,Terror y misterio,accesorio,Accesorio,con un rosario roto
+terror,Terror y misterio,accesorio,Accesorio,con una llave oxidada colgando del cuello
+terror,Terror y misterio,accesorio,Accesorio,con un guante quirúrgico manchado
+terror,Terror y misterio,accesorio,Accesorio,con un parche en el ojo
+terror,Terror y misterio,arma,Arma,con una jeringa vieja
+terror,Terror y misterio,arma,Arma,con una guadaña oxidada
+terror,Terror y misterio,arma,Arma,con un bisturí
+terror,Terror y misterio,arma,Arma,con una soga
+terror,Terror y misterio,habilidad,Habilidad,que puede predecir cómo morirá alguien
+terror,Terror y misterio,habilidad,Habilidad,que se refleja distinto en cada espejo
+terror,Terror y misterio,habilidad,Habilidad,que atrae a los insectos
+terror,Terror y misterio,habilidad,Habilidad,que no proyecta sombra
+terror,Terror y misterio,material,Material,hecho de tela de araña
+terror,Terror y misterio,material,Material,hecho de piel curtida sin curar
+terror,Terror y misterio,material,Material,hecho de cristal roto
+terror,Terror y misterio,material,Material,hecho de cera derretida
+terror,Terror y misterio,lugar,Lugar,dentro de un manicomio abandonado
+terror,Terror y misterio,lugar,Lugar,en un túnel del metro clausurado
+terror,Terror y misterio,lugar,Lugar,en el ático de una casa vieja
+terror,Terror y misterio,lugar,Lugar,dentro de una morgue vacía
+terror,Terror y misterio,clima,Clima,con un frío que no tiene explicación
+terror,Terror y misterio,clima,Clima,bajo relámpagos sin trueno
+terror,Terror y misterio,clima,Clima,con una calma antes de una tormenta que nunca llega
+terror,Terror y misterio,clima,Clima,con el aire cargado de un olor a podredumbre
+terror,Terror y misterio,accion,Acción,mientras cuenta algo en voz baja hacia atrás
+terror,Terror y misterio,accion,Acción,mientras dibuja símbolos en el suelo
+terror,Terror y misterio,accion,Acción,mientras se mira las manos sin parpadear
+terror,Terror y misterio,accion,Acción,mientras golpea suavemente una puerta cerrada
+terror,Terror y misterio,planta,Planta,entre hongos venenosos
+terror,Terror y misterio,planta,Planta,junto a un árbol lleno de cuervos posados
+terror,Terror y misterio,planta,Planta,rodeado de zarzas que enredan los pies
+terror,Terror y misterio,planta,Planta,entre flores marchitas que huelen a descomposición
+terror,Terror y misterio,comida,Comida,sosteniendo un frasco con algo flotando dentro
+terror,Terror y misterio,comida,Comida,con un plato de carne que aún se mueve
+terror,Terror y misterio,comida,Comida,sosteniendo leche cortada
+terror,Terror y misterio,comida,Comida,con galletas mordidas por algo desconocido
+mitologia,Mitología,personaje,Personaje,un semidiós griego
+mitologia,Mitología,personaje,Personaje,una valquiria
+mitologia,Mitología,personaje,Personaje,un escriba egipcio
+mitologia,Mitología,personaje,Personaje,un druida celta
+mitologia,Mitología,criatura,Criatura,una hidra de siete cabezas
+mitologia,Mitología,criatura,Criatura,un ave fénix
+mitologia,Mitología,criatura,Criatura,el can Cerbero
+mitologia,Mitología,criatura,Criatura,una nereida
+mitologia,Mitología,animal,Animal,un carnero dorado
+mitologia,Mitología,animal,Animal,un chacal del desierto
+mitologia,Mitología,animal,Animal,un lobo blanco nórdico
+mitologia,Mitología,animal,Animal,un halcón de Horus
+mitologia,Mitología,vehiculo,Vehículo,la barca de Caronte
+mitologia,Mitología,vehiculo,Vehículo,un trineo tirado por cabras
+mitologia,Mitología,vehiculo,Vehículo,un carro alado
+mitologia,Mitología,vehiculo,Vehículo,una balsa funeraria egipcia
+mitologia,Mitología,objeto,Objeto,la lira de Orfeo
+mitologia,Mitología,objeto,Objeto,un ojo de Horus tallado
+mitologia,Mitología,objeto,Objeto,un cuerno de Thor
+mitologia,Mitología,objeto,Objeto,un espejo de obsidiana azteca
+mitologia,Mitología,atributo,Atributo,con un rayo dorado en la frente
+mitologia,Mitología,atributo,Atributo,con plumas en lugar de cabello
+mitologia,Mitología,atributo,Atributo,con ojos como el fuego eterno
+mitologia,Mitología,atributo,Atributo,con la piel dorada como el sol
+mitologia,Mitología,ropa,Ropa,con una piel de león como capa
+mitologia,Mitología,ropa,Ropa,con un peto de guerrero espartano
+mitologia,Mitología,ropa,Ropa,con una túnica de sacerdote del Nilo
+mitologia,Mitología,ropa,Ropa,con un manto de plumas de quetzal
+mitologia,Mitología,accesorio,Accesorio,con un ánkh colgando del cuello
+mitologia,Mitología,accesorio,Accesorio,con un casco alado
+mitologia,Mitología,accesorio,Accesorio,con un cinturón de fuerza divina
+mitologia,Mitología,accesorio,Accesorio,con brazaletes de serpiente enroscada
+mitologia,Mitología,arma,Arma,con el mjölnir
+mitologia,Mitología,arma,Arma,con una espada de fuego celestial
+mitologia,Mitología,arma,Arma,con un arco de Apolo
+mitologia,Mitología,arma,Arma,con una lanza que nunca falla
+mitologia,Mitología,habilidad,Habilidad,que puede cambiar de forma a voluntad
+mitologia,Mitología,habilidad,Habilidad,que gobierna las mareas
+mitologia,Mitología,habilidad,Habilidad,que resucita de sus propias cenizas
+mitologia,Mitología,habilidad,Habilidad,que ve a través del tiempo
+mitologia,Mitología,material,Material,hecho de oricalco
+mitologia,Mitología,material,Material,hecho de obsidiana pulida
+mitologia,Mitología,material,Material,"hecho de electro, oro y plata"
+mitologia,Mitología,material,Material,hecho de madera de cedro sagrado
+mitologia,Mitología,lugar,Lugar,en las profundidades del inframundo
+mitologia,Mitología,lugar,Lugar,junto al árbol Yggdrasil
+mitologia,Mitología,lugar,Lugar,en el templo de Karnak
+mitologia,Mitología,lugar,Lugar,en el laberinto del Minotauro
+mitologia,Mitología,clima,Clima,bajo una tormenta enviada por los dioses
+mitologia,Mitología,clima,Clima,con el desierto ardiendo bajo el sol de Ra
+mitologia,Mitología,clima,Clima,entre nieblas del inframundo
+mitologia,Mitología,clima,Clima,bajo el fuego de un volcán sagrado
+mitologia,Mitología,accion,Acción,mientras forja un arma divina
+mitologia,Mitología,accion,Acción,mientras conduce almas al más allá
+mitologia,Mitología,accion,Acción,mientras desafía a los dioses
+mitologia,Mitología,accion,Acción,mientras consulta un oráculo
+mitologia,Mitología,planta,Planta,junto al loto sagrado del Nilo
+mitologia,Mitología,planta,Planta,entre manzanas doradas de las Hespérides
+mitologia,Mitología,planta,Planta,rodeado de cipreses del inframundo
+mitologia,Mitología,planta,Planta,cerca de un roble sagrado nórdico
+mitologia,Mitología,comida,Comida,sosteniendo ambrosía de los dioses
+mitologia,Mitología,comida,Comida,con un plato de higos y dátiles
+mitologia,Mitología,comida,Comida,sosteniendo un cuerno de hidromiel eterno
+mitologia,Mitología,comida,Comida,con pan de ofrenda sagrado
+estudio,Estudio de dibujo,personaje,Personaje,una persona cocinando en la cocina
+estudio,Estudio de dibujo,personaje,Personaje,un niño jugando con bloques
+estudio,Estudio de dibujo,personaje,Personaje,una señora tejiendo en el sillón
+estudio,Estudio de dibujo,personaje,Personaje,un ciclista deteniéndose en la esquina
+estudio,Estudio de dibujo,criatura,Criatura,una hormiga cargando una hoja
+estudio,Estudio de dibujo,criatura,Criatura,una libélula posada en una rama
+estudio,Estudio de dibujo,criatura,Criatura,un gusano de seda
+estudio,Estudio de dibujo,criatura,Criatura,un grillo entre el pasto
+estudio,Estudio de dibujo,animal,Animal,una vaca pastando
+estudio,Estudio de dibujo,animal,Animal,un pato en un estanque
+estudio,Estudio de dibujo,animal,Animal,un conejo doméstico
+estudio,Estudio de dibujo,animal,Animal,una ardilla en un árbol
+estudio,Estudio de dibujo,vehiculo,Vehículo,un tren de carga pasando
+estudio,Estudio de dibujo,vehiculo,Vehículo,una camioneta de reparto
+estudio,Estudio de dibujo,vehiculo,Vehículo,un tranvía urbano
+estudio,Estudio de dibujo,vehiculo,Vehículo,un monopatín apoyado en la pared
+estudio,Estudio de dibujo,objeto,Objeto,un paraguas cerrado apoyado en una silla
+estudio,Estudio de dibujo,objeto,Objeto,una regadera de metal
+estudio,Estudio de dibujo,objeto,Objeto,un bolso de mano
+estudio,Estudio de dibujo,objeto,Objeto,un termo de agua
+estudio,Estudio de dibujo,atributo,Atributo,con las manos llenas de harina
+estudio,Estudio de dibujo,atributo,Atributo,con el pelo recogido en un moño
+estudio,Estudio de dibujo,atributo,Atributo,con manchas de pintura en la ropa
+estudio,Estudio de dibujo,atributo,Atributo,con los brazos cruzados pensando
+estudio,Estudio de dibujo,ropa,Ropa,con un delantal de cocina
+estudio,Estudio de dibujo,ropa,Ropa,con botas de lluvia
+estudio,Estudio de dibujo,ropa,Ropa,con una boina de artista
+estudio,Estudio de dibujo,ropa,Ropa,con un overol de trabajo
+estudio,Estudio de dibujo,accesorio,Accesorio,con una cinta métrica al cuello
+estudio,Estudio de dibujo,accesorio,Accesorio,con un delantal con bolsillos
+estudio,Estudio de dibujo,accesorio,Accesorio,con un pañuelo en la cabeza
+estudio,Estudio de dibujo,accesorio,Accesorio,con guantes de jardinería
+estudio,Estudio de dibujo,arma,Arma,con unas pinzas de cocina
+estudio,Estudio de dibujo,arma,Arma,con un rastrillo de jardín
+estudio,Estudio de dibujo,arma,Arma,con una pala pequeña
+estudio,Estudio de dibujo,arma,Arma,con un cepillo de limpieza
+estudio,Estudio de dibujo,habilidad,Habilidad,que arregla cosas con las manos
+estudio,Estudio de dibujo,habilidad,Habilidad,que hornea pan todos los domingos
+estudio,Estudio de dibujo,habilidad,Habilidad,que cuida un huerto con dedicación
+estudio,Estudio de dibujo,habilidad,Habilidad,que repara bicicletas como hobby
+estudio,Estudio de dibujo,material,Material,hecho de bambú
+estudio,Estudio de dibujo,material,Material,hecho de lana tejida a mano
+estudio,Estudio de dibujo,material,Material,hecho de arcilla
+estudio,Estudio de dibujo,material,Material,hecho de metal reciclado
+estudio,Estudio de dibujo,lugar,Lugar,en un mercado de frutas y verduras
+estudio,Estudio de dibujo,lugar,Lugar,en el patio trasero de una casa
+estudio,Estudio de dibujo,lugar,Lugar,en una lavandería de barrio
+estudio,Estudio de dibujo,lugar,Lugar,en un taller de carpintería
+estudio,Estudio de dibujo,clima,Clima,en una tarde de primavera templada
+estudio,Estudio de dibujo,clima,Clima,bajo el sol de mediodía
+estudio,Estudio de dibujo,clima,Clima,en una noche fresca de verano
+estudio,Estudio de dibujo,clima,Clima,con brisa suave de otoño
+estudio,Estudio de dibujo,accion,Acción,mientras amasa pan en la cocina
+estudio,Estudio de dibujo,accion,Acción,mientras dobla ropa recién lavada
+estudio,Estudio de dibujo,accion,Acción,mientras arregla una bicicleta
+estudio,Estudio de dibujo,accion,Acción,mientras pinta una pared
+estudio,Estudio de dibujo,planta,Planta,junto a un huerto de tomates
+estudio,Estudio de dibujo,planta,Planta,entre macetas de albahaca y menta
+estudio,Estudio de dibujo,planta,Planta,cerca de un limonero en el patio
+estudio,Estudio de dibujo,planta,Planta,con enredaderas subiendo por una reja
+estudio,Estudio de dibujo,comida,Comida,sosteniendo un pan recién horneado
+estudio,Estudio de dibujo,comida,Comida,con una ensalada fresca en un bowl
+estudio,Estudio de dibujo,comida,Comida,comiendo sopa casera
+estudio,Estudio de dibujo,comida,Comida,sosteniendo un vaso de limonada
+transversal,Transversal,personaje,Personaje,un niño curioso
+transversal,Transversal,personaje,Personaje,un anciano sabio
+transversal,Transversal,personaje,Personaje,una mujer decidida
+transversal,Transversal,personaje,Personaje,un joven distraído
+transversal,Transversal,personaje,Personaje,una persona sonriente
+transversal,Transversal,personaje,Personaje,un trabajador cansado
+transversal,Transversal,animal,Animal,un perro
+transversal,Transversal,animal,Animal,un gato
+transversal,Transversal,animal,Animal,un caballo
+transversal,Transversal,animal,Animal,un conejo
+transversal,Transversal,animal,Animal,una vaca
+transversal,Transversal,animal,Animal,un cerdo
+transversal,Transversal,animal,Animal,una oveja
+transversal,Transversal,animal,Animal,un pato
+transversal,Transversal,animal,Animal,un ratón
+transversal,Transversal,animal,Animal,una tortuga
+transversal,Transversal,vehiculo,Vehículo,una bicicleta
+transversal,Transversal,vehiculo,Vehículo,un auto
+transversal,Transversal,vehiculo,Vehículo,un camión
+transversal,Transversal,vehiculo,Vehículo,un bote pequeño
+transversal,Transversal,vehiculo,Vehículo,una moto
+transversal,Transversal,vehiculo,Vehículo,un tren
+transversal,Transversal,vehiculo,Vehículo,un avión
+transversal,Transversal,vehiculo,Vehículo,una carreta
+transversal,Transversal,objeto,Objeto,una mochila
+transversal,Transversal,objeto,Objeto,un libro
+transversal,Transversal,objeto,Objeto,una caja
+transversal,Transversal,objeto,Objeto,una lámpara
+transversal,Transversal,objeto,Objeto,un reloj
+transversal,Transversal,objeto,Objeto,una maleta
+transversal,Transversal,objeto,Objeto,un paraguas
+transversal,Transversal,objeto,Objeto,una cámara
+transversal,Transversal,atributo,Atributo,con el pelo largo
+transversal,Transversal,atributo,Atributo,con una sonrisa amplia
+transversal,Transversal,atributo,Atributo,con los ojos cerrados
+transversal,Transversal,atributo,Atributo,con una postura relajada
+transversal,Transversal,atributo,Atributo,con manos grandes
+transversal,Transversal,atributo,Atributo,con una mirada seria
+transversal,Transversal,atributo,Atributo,con pecas en la cara
+transversal,Transversal,atributo,Atributo,con el ceño fruncido
+transversal,Transversal,ropa,Ropa,con una camisa
+transversal,Transversal,ropa,Ropa,con un abrigo
+transversal,Transversal,ropa,Ropa,con un sombrero
+transversal,Transversal,ropa,Ropa,con una bufanda
+transversal,Transversal,ropa,Ropa,con pantalones cómodos
+transversal,Transversal,ropa,Ropa,con un vestido simple
+transversal,Transversal,ropa,Ropa,con una chaqueta
+transversal,Transversal,ropa,Ropa,con zapatillas deportivas
+transversal,Transversal,accesorio,Accesorio,con lentes
+transversal,Transversal,accesorio,Accesorio,con un reloj de pulsera
+transversal,Transversal,accesorio,Accesorio,con una mochila cruzada
+transversal,Transversal,accesorio,Accesorio,con un collar sencillo
+transversal,Transversal,accesorio,Accesorio,con aretes pequeños
+transversal,Transversal,accesorio,Accesorio,con una pulsera
+transversal,Transversal,accesorio,Accesorio,con un cinturón
+transversal,Transversal,accesorio,Accesorio,con una gorra
+transversal,Transversal,arma,Arma,con un cuchillo
+transversal,Transversal,arma,Arma,con un bastón
+transversal,Transversal,arma,Arma,con una honda
+transversal,Transversal,arma,Arma,con un palo largo
+transversal,Transversal,arma,Arma,con una piedra en la mano
+transversal,Transversal,arma,Arma,con un látigo
+transversal,Transversal,habilidad,Habilidad,que aprende rápido
+transversal,Transversal,habilidad,Habilidad,que es muy paciente
+transversal,Transversal,habilidad,Habilidad,que tiene buena memoria
+transversal,Transversal,habilidad,Habilidad,que es curioso por naturaleza
+transversal,Transversal,material,Material,hecho de madera
+transversal,Transversal,material,Material,hecho de metal
+transversal,Transversal,material,Material,hecho de vidrio
+transversal,Transversal,material,Material,hecho de tela
+transversal,Transversal,material,Material,hecho de piedra
+transversal,Transversal,material,Material,hecho de plástico
+transversal,Transversal,material,Material,hecho de cuero
+transversal,Transversal,material,Material,hecho de papel
+transversal,Transversal,material,Material,hecho de cerámica
+transversal,Transversal,material,Material,hecho de goma
+transversal,Transversal,lugar,Lugar,en un camino de tierra
+transversal,Transversal,lugar,Lugar,junto a un río
+transversal,Transversal,lugar,Lugar,en una plaza
+transversal,Transversal,lugar,Lugar,frente a una casa
+transversal,Transversal,lugar,Lugar,en la cima de una colina
+transversal,Transversal,lugar,Lugar,dentro de un mercado
+transversal,Transversal,lugar,Lugar,en una calle vacía
+transversal,Transversal,lugar,Lugar,junto a un lago
+transversal,Transversal,clima,Clima,bajo el sol
+transversal,Transversal,clima,Clima,con lluvia ligera
+transversal,Transversal,clima,Clima,en un día nublado
+transversal,Transversal,clima,Clima,con viento fuerte
+transversal,Transversal,clima,Clima,en una noche estrellada
+transversal,Transversal,clima,Clima,con niebla
+transversal,Transversal,clima,Clima,en un día caluroso
+transversal,Transversal,clima,Clima,con frío intenso
+transversal,Transversal,clima,Clima,bajo la luna llena
+transversal,Transversal,clima,Clima,con una brisa suave
+transversal,Transversal,accion,Acción,mientras camina
+transversal,Transversal,accion,Acción,mientras descansa
+transversal,Transversal,accion,Acción,mientras observa el horizonte
+transversal,Transversal,accion,Acción,mientras conversa
+transversal,Transversal,accion,Acción,mientras trabaja
+transversal,Transversal,accion,Acción,mientras piensa
+transversal,Transversal,accion,Acción,mientras sonríe
+transversal,Transversal,accion,Acción,mientras espera
+transversal,Transversal,accion,Acción,mientras corre
+transversal,Transversal,accion,Acción,mientras duerme
+transversal,Transversal,planta,Planta,junto a un árbol
+transversal,Transversal,planta,Planta,entre pasto alto
+transversal,Transversal,planta,Planta,cerca de flores silvestres
+transversal,Transversal,planta,Planta,rodeado de arbustos
+transversal,Transversal,planta,Planta,junto a un jardín
+transversal,Transversal,planta,Planta,entre hojas caídas
+transversal,Transversal,planta,Planta,cerca de un campo de trigo
+transversal,Transversal,planta,Planta,junto a una enredadera
+transversal,Transversal,comida,Comida,sosteniendo una manzana
+transversal,Transversal,comida,Comida,con una taza de agua
+transversal,Transversal,comida,Comida,comiendo pan
+transversal,Transversal,comida,Comida,sosteniendo una naranja
+transversal,Transversal,comida,Comida,con un vaso de leche
+transversal,Transversal,comida,Comida,comiendo una galleta
+transversal,Transversal,comida,Comida,sosteniendo un plátano
+transversal,Transversal,comida,Comida,con un plato de arroz
+transversal,Transversal,comida,Comida,sosteniendo una zanahoria
+transversal,Transversal,comida,Comida,con un puñado de nueces
+transversal,Transversal,accion,Acción,mientras toma una taza de té
+transversal,Transversal,accion,Acción,mientras juega tenis
+transversal,Transversal,accion,Acción,mientras juega ajedrez
+transversal,Transversal,accion,Acción,mientras se pinta las uñas
+transversal,Transversal,accion,Acción,mientras teje una bufanda
+transversal,Transversal,accion,Acción,mientras toca la guitarra
+transversal,Transversal,accion,Acción,mientras baila
+transversal,Transversal,accion,Acción,mientras hace yoga
+transversal,Transversal,accion,Acción,mientras lee el periódico
+transversal,Transversal,accion,Acción,mientras dispara con un arco
+transversal,Transversal,accion,Acción,mientras anda en patineta
+transversal,Transversal,accion,Acción,mientras toma una siesta en un sillón
+fantasia,Fantasía medieval,personaje,Personaje,un elfo
+mitologia,Mitología,criatura,Criatura,una medusa

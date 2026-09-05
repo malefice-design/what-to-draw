@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What to Draw — Generador de ideas</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#3F5BA4">
+<meta name="description" content="Generador de ideas para dibujar: elige una categoría, combina elementos y recibe una idea única para dibujar.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="What to Draw">
+<meta property="og:description" content="Generador de ideas para dibujar: elige una categoría, combina elementos y recibe una idea única para dibujar.">
+<meta property="og:image" content="https://malefice-design.github.io/what-to-draw/assets/branding/og-image.png">
+<meta property="og:url" content="https://malefice-design.github.io/what-to-draw/landing.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What to Draw">
+<meta name="twitter:image" content="https://malefice-design.github.io/what-to-draw/assets/branding/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  body.landing {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .landing-wrap { width: 100%; max-width: 400px; }
+  .landing-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+  }
+  .landing-icon { width: 56px; height: 56px; flex-shrink: 0; }
+  .landing-title {
+    margin: 0;
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: var(--px-navy);
+    white-space: nowrap;
+  }
+  .landing-tagline {
+    margin: 0;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .landing-cta { text-decoration: none; }
+</style>
+</head>
+<body class="landing">
+
+<div class="landing-wrap">
+  <div class="px-window">
+    <div class="px-titlebar">
+      <span class="px-titlebar-label">New!</span>
+      <span class="px-titlebar-controls">
+        <span class="px-deco-btn" aria-hidden="true"><img src="assets/icons/deco-help.svg" alt=""></span>
+        <span class="px-deco-btn" aria-hidden="true"><img src="assets/icons/deco-close.svg" alt=""></span>
+      </span>
+    </div>
+    <div class="px-body">
+      <div class="landing-brand">
+        <img src="assets/favicon.svg" alt="" class="landing-icon">
+        <h1 class="landing-title">What To Draw</h1>
+      </div>
+      <p class="landing-tagline">¿Bloqueo creativo? Te ayudamos generando ideas para dibujar :)</p>
+      <a href="index.html" class="px-primary-btn px-primary-btn--blue landing-cta">
+        <img src="assets/icons/star.svg" class="px-btn-icon" alt="">
+        <span>Probar app</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<img src="assets/icons/decor-bottom.svg" class="px-decor" alt="" aria-hidden="true">
+</body>
+</html>

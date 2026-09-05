@@ -32,6 +32,9 @@
       const cat = WTD_CATEGORIES.find((c) => c.id === catId);
       if (cat && cat.banks[slotId]) pool = pool.concat(cat.banks[slotId]);
     });
+    // "transversal" no es una categoría seleccionable: sus frases se suman
+    // siempre, sin importar qué categoría(s) haya elegido el usuario.
+    if (WTD_TRANSVERSAL_BANKS[slotId]) pool = pool.concat(WTD_TRANSVERSAL_BANKS[slotId]);
     return pool;
   }
 
