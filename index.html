@@ -4,6 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>What to Draw — Generador de ideas</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3F5BA4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="What to Draw">
+<meta name="description" content="Generador de ideas para dibujar: elige una categoría, combina elementos y recibe una idea única para dibujar.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="What to Draw">
+<meta property="og:description" content="Generador de ideas para dibujar: elige una categoría, combina elementos y recibe una idea única para dibujar.">
+<meta property="og:image" content="https://malefice-design.github.io/what-to-draw/assets/branding/og-image.png">
+<meta property="og:url" content="https://malefice-design.github.io/what-to-draw/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What to Draw">
+<meta name="twitter:description" content="Generador de ideas para dibujar: elige una categoría, combina elementos y recibe una idea única para dibujar.">
+<meta name="twitter:image" content="https://malefice-design.github.io/what-to-draw/assets/branding/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600&display=swap" rel="stylesheet">
@@ -29,13 +46,16 @@
       <div class="px-titlebar">
         <span class="px-titlebar-label">Elige una categoría:</span>
         <span class="px-titlebar-controls">
-          <button type="button" class="px-mini-btn" aria-label="Ayuda">?</button>
-          <button type="button" class="px-mini-btn" aria-label="Cerrar">&times;</button>
+          <span class="px-deco-btn" aria-hidden="true"><img src="assets/icons/deco-help.svg" alt=""></span>
+          <span class="px-deco-btn" aria-hidden="true"><img src="assets/icons/deco-close.svg" alt=""></span>
         </span>
       </div>
       <div class="px-body">
         <div id="category-grid" class="px-pill-list"></div>
-        <button id="btn-to-slots" class="px-primary-btn px-primary-btn--pink" disabled>Continuar</button>
+        <button id="btn-to-slots" class="px-primary-btn px-primary-btn--pink" disabled>
+          <span>Continuar</span>
+          <img src="assets/icons/back-arrow.svg" class="px-btn-icon px-btn-icon--flip" alt="">
+        </button>
       </div>
     </div>
   </section>
@@ -46,15 +66,15 @@
       <div class="px-titlebar">
         <span class="px-titlebar-label">Elige qué elementos quieres:</span>
         <span class="px-titlebar-controls">
-          <button type="button" class="px-mini-btn" aria-label="Ayuda">?</button>
-          <button type="button" class="px-mini-btn" aria-label="Cerrar">&times;</button>
+          <span class="px-deco-btn" aria-hidden="true"><img src="assets/icons/deco-help.svg" alt=""></span>
+          <span class="px-deco-btn" aria-hidden="true"><img src="assets/icons/deco-close.svg" alt=""></span>
         </span>
       </div>
+      <div id="category-banner" class="px-category-banner"></div>
       <div class="px-body">
-        <div id="category-banner" class="px-category-banner"></div>
         <div id="slot-grid" class="px-pill-grid"></div>
-        <button id="btn-generate" class="px-primary-btn px-primary-btn--teal" disabled>
-          <img src="assets/icons/star.svg" class="px-btn-icon" alt="">
+        <button id="btn-generate" class="px-primary-btn px-primary-btn--indigo" disabled>
+          <img src="assets/icons/star-white.svg" class="px-btn-icon" alt="">
           <span>Generar idea</span>
         </button>
       </div>
@@ -67,8 +87,8 @@
       <div class="px-titlebar">
         <span class="px-titlebar-label">Tu idea para dibujar:</span>
         <span class="px-titlebar-controls">
-          <button type="button" class="px-mini-btn" aria-label="Ayuda">?</button>
-          <button type="button" class="px-mini-btn" aria-label="Cerrar">&times;</button>
+          <span class="px-deco-btn" aria-hidden="true"><img src="assets/icons/deco-help.svg" alt=""></span>
+          <span class="px-deco-btn" aria-hidden="true"><img src="assets/icons/deco-close.svg" alt=""></span>
         </span>
       </div>
       <div class="px-body">

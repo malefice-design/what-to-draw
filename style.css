@@ -8,23 +8,36 @@
   --px-alice: #DAE8FB;
   --px-white: #FFFFFF;
   --px-disabled-bg: #E7E8F2;
-  --px-header-grad: linear-gradient(238deg, #576CA4 0%, #3F5BA4 100%);
+  --px-header-grad: linear-gradient(265deg, #95A3C9 -0.64%, #3F5BA4 99.57%);
   --px-grad-pink: linear-gradient(255deg, #FAEBFF 0%, #F3D2FF 100%);
   --px-grad-teal: linear-gradient(255deg, #9BCED2 0%, #7ACCD2 100%);
   --px-grad-blue: linear-gradient(255deg, #ECF2FB 0%, #DBE8FB 100%);
+  --px-grad-indigo: linear-gradient(255deg, #8189BE 0%, #4C58A0 100%);
+  --px-grad-banner: linear-gradient(88deg, var(--px-alice) -0.41%, var(--px-pink-light) 102.88%, var(--px-pink) 142.07%);
+  --px-bg-gradient: linear-gradient(259deg, var(--px-alice) -7.04%, #FAF1FE 76.36%, var(--px-pink-light) 110%);
 
   --bevel-sm: inset 3px 3px 0 rgba(255,255,255,0.6), inset -3px -3px 0 rgba(74,76,121,0.55);
   --bevel-sm-pressed: inset -3px -3px 0 rgba(255,255,255,0.6), inset 3px 3px 0 rgba(74,76,121,0.55);
-  --bevel-lg: inset 5px 5px 0 rgba(255,255,255,0.6), inset -5px -5px 0 rgba(74,76,121,0.55);
+  --bevel-lg: inset 9px 9px 0 rgba(255,255,255,0.5), inset -9px -9px 0 rgba(74,76,121,0.5);
+  --bevel-lg-pressed: inset -9px -9px 0 rgba(255,255,255,0.5), inset 9px 9px 0 rgba(74,76,121,0.5);
 
   --bg: #FCF6FE;
   --text: var(--px-navy);
   --text-dim: #6B6790;
 
-  --header-h: 53px;
+  --header-h: 68px;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+  /* El único feedback de toque es el bisel :active de cada componente;
+     se anula el resaltado táctil nativo del navegador (gris/azul semitransparente). */
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, .px-pill, .px-deco-btn {
+  outline: none;
+}
 
 button {
   appearance: none;
@@ -40,8 +53,11 @@ button {
 
 body {
   margin: 0;
+  min-height: 100vh;
+  padding-top: var(--header-h);
   font-family: 'Saira', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: var(--bg);
+  background: var(--px-bg-gradient);
+  background-attachment: fixed;
   color: var(--text);
 }
 
@@ -50,7 +66,7 @@ main#app {
   z-index: 1;
   max-width: 460px;
   margin: 0 auto;
-  padding: 28px 18px 60px;
+  padding: 15px 16px 36px;
 }
 
 .screen { display: none; }
@@ -75,13 +91,16 @@ main#app {
   height: var(--header-h);
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 18px;
+  gap: 10px;
+  padding: 12px 20px;
   background: var(--px-header-grad);
   border-bottom: 3px solid var(--px-navy);
   box-shadow: 0 4px 0 rgba(0,0,0,0.15);
-  position: relative;
-  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 .px-header-title {
@@ -89,16 +108,16 @@ main#app {
   margin: 0;
   text-align: center;
   color: white;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .px-icon-btn {
   flex-shrink: 0;
-  width: 34px;
-  height: 34px;
+  width: 44px;
+  height: 44px;
   border: 3px solid var(--px-navy);
-  border-radius: 10px;
+  border-radius: 12px;
   background: var(--px-white);
   box-shadow: var(--bevel-sm);
   display: flex;
@@ -107,7 +126,7 @@ main#app {
   cursor: pointer;
   padding: 0;
 }
-.px-icon-btn:active { box-shadow: var(--bevel-sm-pressed); }
+.px-icon-btn:active, .px-icon-btn.is-pressed { box-shadow: var(--bevel-sm-pressed); }
 .px-icon-btn:disabled {
   background: var(--px-disabled-bg);
   border-color: var(--px-grey);
@@ -116,7 +135,7 @@ main#app {
 }
 .px-icon-btn:disabled .px-icon-img,
 .px-icon-btn:disabled .px-icon-img-lg { filter: grayscale(1) opacity(0.7); }
-.px-icon-img { width: 22px; height: 22px; }
+.px-icon-img { width: 28px; height: 28px; }
 
 /* ================= Ventana (Categorías / Elementos / Resultado) ================= */
 .px-window {
@@ -128,88 +147,109 @@ main#app {
 .px-titlebar {
   background: var(--px-pink);
   border: 3px solid var(--px-navy);
-  border-radius: 3px 3px 0 0;
-  padding: 5px;
+  border-radius: 8px 8px 0 0;
+  padding: 12px 12px 12px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 6px;
+  gap: 8px;
 }
 
 .px-titlebar-label {
   flex: 1;
+  min-width: 0;
   color: var(--px-navy);
-  font-size: 0.88rem;
+  font-size: 0.98rem;
   font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.px-titlebar-controls { display: flex; gap: 3px; flex-shrink: 0; }
+.px-titlebar-controls { display: flex; gap: 6px; flex-shrink: 0; }
 
-.px-mini-btn {
-  width: 23px;
-  height: 19px;
-  border: 1.5px solid var(--px-navy);
-  border-radius: 6px;
+/* Insignias decorativas: los "?"/"x" de la barra rosa y el pin del subheader.
+   A propósito NO se ven presionables (sin :active, cursor default). */
+.px-deco-btn {
+  width: 28px;
+  height: 24px;
+  border: none;
+  border-radius: 3px;
   background: var(--px-pink-light);
   color: var(--px-navy);
-  font-size: 10px;
+  font-family: inherit;
+  font-size: 13px;
   font-weight: 700;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  box-shadow: var(--bevel-sm);
   cursor: default;
+  flex-shrink: 0;
   padding: 0;
 }
+.px-deco-btn img { width: 13px; height: 13px; }
 
 .px-body {
   background: var(--px-white);
   border: 3px solid var(--px-navy);
   border-top: none;
-  border-radius: 0 0 3px 3px;
-  padding: 25px 18px;
+  border-radius: 0 0 8px 8px;
+  padding: clamp(14px, 3vh, 25px) 18px;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  gap: 26px;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(14px, 3vh, 33px);
   box-shadow: inset -4px -4px 0 rgba(0,0,0,0.18);
 }
 
-/* ================= Banner de categoría activa ================= */
+/* ================= Subheader: categoría activa (pantalla Elementos) ================= */
 .px-category-banner {
+  position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
+  align-self: stretch;
   width: 100%;
-  padding: 10px 14px;
-  border: 3px solid var(--px-navy);
-  border-radius: 3px;
-  background: var(--px-disabled-bg);
-  box-shadow: var(--bevel-sm-pressed);
+  height: 34px;
+  padding: 0 5px;
+  border-bottom: 3px solid var(--px-navy);
+  border-right: 3px solid var(--px-navy);
+  border-left: 3px solid var(--px-navy);
+  background: var(--px-grad-banner);
 }
 .px-category-banner-icon {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   flex-shrink: 0;
-  filter: grayscale(1) opacity(0.75);
 }
 .px-category-banner-label {
-  color: var(--px-grey);
-  font-size: 0.95rem;
+  color: var(--px-navy);
+  font-size: 0.88rem;
   font-weight: 600;
+  white-space: nowrap;
+}
+.px-category-banner .px-deco-btn {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* ================= Pills (categorías y elementos) ================= */
 .px-pill-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
   width: 100%;
 }
 
 .px-pill-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  gap: 14px;
   width: 100%;
 }
 
@@ -217,7 +257,7 @@ main#app {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 14px;
+  padding: 14px 16px;
   border: 3px solid var(--px-navy);
   border-radius: 10px;
   background: var(--px-white);
@@ -247,7 +287,8 @@ main#app {
   justify-content: center;
   gap: 10px;
   width: 100%;
-  min-height: 60px;
+  height: 64px;
+  flex-shrink: 0;
   border: 3px solid var(--px-navy);
   border-radius: 10px;
   color: var(--px-navy);
@@ -256,9 +297,9 @@ main#app {
   font-weight: 600;
   cursor: pointer;
   box-shadow: var(--bevel-lg);
-  padding: 12px 24px;
+  padding: 0 24px;
 }
-.px-primary-btn:active { box-shadow: var(--bevel-sm-pressed); }
+.px-primary-btn:active, .px-primary-btn.is-pressed { box-shadow: var(--bevel-lg-pressed); }
 .px-primary-btn:disabled {
   background: var(--px-disabled-bg);
   border-color: var(--px-grey);
@@ -266,14 +307,19 @@ main#app {
   cursor: not-allowed;
   box-shadow: inset 3px 3px 0 rgba(255,255,255,0.7), inset -3px -3px 0 rgba(148,152,164,0.4);
 }
-.px-primary-btn:disabled .px-btn-icon { filter: grayscale(1) opacity(0.7); }
+.px-primary-btn:disabled .px-btn-icon[src$="back-arrow.svg"] { content: url('assets/icons/back-arrow-grey.svg'); }
+.px-primary-btn:disabled .px-btn-icon[src$="star.svg"],
+.px-primary-btn:disabled .px-btn-icon[src$="star-white.svg"] { content: url('assets/icons/star-grey.svg'); }
 .px-primary-btn--pink { background: var(--px-grad-pink); }
 .px-primary-btn--teal { background: var(--px-grad-teal); }
+.px-primary-btn--indigo { background: var(--px-grad-indigo); color: #FFFFFF; }
 .px-primary-btn--blue { background: var(--px-grad-blue); }
 .px-btn-icon { width: 22px; height: 22px; }
+.px-btn-icon--flip { transform: scaleX(-1); }
 
 /* ================= Resultado ================= */
 .px-result-phrase {
+  width: 100%;
   margin: 0;
   color: var(--px-navy);
   font-size: 1.25rem;
@@ -290,12 +336,13 @@ main#app {
 
 .px-icon-btn--lg {
   width: auto;
-  height: 60px;
-  padding: 0 24px;
+  height: 64px;
+  padding: 0 25px;
+  gap: 15px;
   border-radius: 10px;
 }
 .px-icon-btn--lg.is-active { background: var(--px-pink-light); }
-.px-icon-img-lg { width: 30px; height: 30px; }
+.px-icon-img-lg { width: 32px; height: 32px; aspect-ratio: 1 / 1; }
 
 /* ================= Favoritos (pendiente de rediseño) ================= */
 .favorites-list {
@@ -305,13 +352,16 @@ main#app {
 }
 
 .favorite-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
   background: var(--px-white);
   border-radius: 8px;
   border: 2.5px solid var(--px-navy);
   box-shadow: 3px 3px 0 var(--px-navy);
   padding: 16px;
-  position: relative;
 }
+.favorite-card .fav-content { flex: 1; min-width: 0; }
 .favorite-card .fav-category {
   font-size: 0.75rem;
   font-weight: 700;
@@ -322,18 +372,20 @@ main#app {
 }
 .favorite-card .fav-phrase { margin: 0; line-height: 1.4; color: var(--px-navy); font-weight: 500; }
 .favorite-card .fav-delete {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: var(--px-pink-light);
-  border: 1.5px solid var(--px-navy);
-  border-radius: 6px;
-  width: 26px;
-  height: 26px;
-  font-size: 0.9rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--px-white);
+  border: 2px solid var(--px-navy);
+  border-radius: 8px;
+  box-shadow: var(--bevel-sm);
+  width: 32px;
+  height: 32px;
   cursor: pointer;
-  color: var(--px-navy);
 }
+.favorite-card .fav-delete:active, .favorite-card .fav-delete.is-pressed { box-shadow: var(--bevel-sm-pressed); }
+.favorite-card .fav-delete img { width: 18px; height: 18px; }
 
 .empty-msg {
   color: var(--text-dim);
@@ -345,9 +397,8 @@ main#app {
 /* ================= Flourish decorativo ================= */
 .px-decor {
   position: fixed;
-  left: 50%;
-  bottom: -30px;
-  transform: translateX(-42%);
+  right: 24px;
+  bottom: -10px;
   width: 220px;
   height: auto;
   mix-blend-mode: plus-lighter;
@@ -355,6 +406,17 @@ main#app {
   z-index: 0;
 }
 
-@media (min-width: 480px) {
-  .px-pill-list { grid-template-columns: 1fr; }
+/* La pantalla de Elementos tiene el doble de ítems que Categorías, así que
+   su grilla usa espaciado más ajustado (nunca el botón principal, que
+   siempre mantiene su alto fijo). Escala con la altura de pantalla en vez
+   de saltar de golpe en un breakpoint. */
+.px-pill-grid {
+  gap: clamp(4px, 1.2vh, 10px);
+}
+.px-pill-grid .px-pill {
+  padding: clamp(3px, 1vh, 10px) 12px;
+}
+.px-pill-grid .px-pill-icon {
+  width: clamp(16px, 3.5vh, 24px);
+  height: clamp(16px, 3.5vh, 24px);
 }

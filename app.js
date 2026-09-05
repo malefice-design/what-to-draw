@@ -5,7 +5,7 @@
 
   const state = {
     categories: new Set(),
-    slots: new Set(['personaje', 'lugar', 'accion']),
+    slots: new Set(),
   };
 
   const history = []; // { text, categoryIds }
@@ -47,42 +47,52 @@
   }
 
   // ---------- phrase generation ----------
+  // Orden fijo de las cláusulas (todo lo que no es "sujeto"). Ver spec-generador-de-frases.md.
   const CLAUSE_ORDER = [
-    'atributo', 'personaje', 'criatura', 'animal', 'vehiculo', 'objeto',
-    'ropa', 'accesorio', 'arma', 'habilidad', 'material', 'lugar', 'clima', 'accion', 'planta', 'comida',
+    'atributo', 'ropa', 'accesorio', 'arma', 'habilidad',
+    'material', 'lugar', 'clima', 'accion', 'planta', 'comida',
   ];
 
   function generatePhrase(categoryIds, slotIds) {
     if (categoryIds.length === 0 || slotIds.length === 0) return null;
 
-    let subject = null;
-    for (const sid of WTD_SUBJECT_PRIORITY) {
-      if (slotIds.includes(sid)) {
-        const pool = buildPool(categoryIds, sid);
-        if (pool.length) {
-          subject = { id: sid, text: pickRandom(pool) };
-          break;
-        }
-      }
+    // Todos los slots "sujeto" que el usuario activó y que tienen contenido
+    // disponible en las categorías elegidas, en orden de prioridad.
+    const chosenSubjects = WTD_SUBJECT_PRIORITY.filter(
+      (sid) => slotIds.includes(sid) && buildPool(categoryIds, sid).length > 0
+    );
+    const mainSubjectId = chosenSubjects[0] || null;
+
+    const parts = [];
+
+    // 1. Sujeto principal (o el sujeto genérico de respaldo si no se eligió ninguno).
+    if (mainSubjectId) {
+      parts.push(pickRandom(buildPool(categoryIds, mainSubjectId)));
+    } else {
+      parts.push(pickRandom(WTD_FALLBACK_SUBJECTS).toLowerCase());
     }
 
-    let subjectText = subject ? subject.text : pickRandom(WTD_FALLBACK_SUBJECTS).toLowerCase();
-    const subjectId = subject ? subject.id : null;
+    // 2. Sujetos secundarios, con su conector fijo, en el mismo orden de prioridad.
+    for (const sid of chosenSubjects.slice(1)) {
+      const slot = WTD_SLOTS.find((s) => s.id === sid);
+      const fragment = pickRandom(buildPool(categoryIds, sid));
+      parts.push(`${slot.connector} ${fragment}`);
+    }
 
-    const candidateSlots = WTD_SLOTS.filter((s) => slotIds.includes(s.id) && s.id !== subjectId);
-    candidateSlots.sort((a, b) => CLAUSE_ORDER.indexOf(a.id) - CLAUSE_ORDER.indexOf(b.id));
-
-    const clauses = [];
-    for (const slot of candidateSlots) {
-      const pool = buildPool(categoryIds, slot.id);
+    // 3. Cláusulas en el orden fijo. "material" usa su conector especial.
+    for (const slotId of CLAUSE_ORDER) {
+      if (!slotIds.includes(slotId)) continue;
+      const pool = buildPool(categoryIds, slotId);
       if (!pool.length) continue;
-      let text = pickRandom(pool);
-      if (slot.kind === 'subject') text = `${slot.connector} ${text}`;
-      clauses.push(text);
+      let fragment = pickRandom(pool);
+      if (slotId === 'material') {
+        fragment = `con detalles hechos de ${fragment.replace(/^hecho de /, '')}`;
+      }
+      parts.push(fragment);
     }
 
-    const capitalized = subjectText.charAt(0).toUpperCase() + subjectText.slice(1);
-    const text = [capitalized, ...clauses].join(', ') + '.';
+    const joined = parts.join(', ');
+    const text = joined.charAt(0).toUpperCase() + joined.slice(1) + '.';
     return { text, categoryIds: [...categoryIds] };
   }
 
@@ -101,6 +111,20 @@
   function goBack() {
     const prev = screenHistory.pop();
     if (prev) switchScreen(prev);
+  }
+
+  // El ":active" de CSS se apaga apenas se levanta el dedo (touchend), antes
+  // de que cualquier setTimeout en el click handler alcance a hacer algo.
+  // Por eso el estado "pressed" se controla acá con una clase: se aplica al
+  // tocar, se mantiene un rato después de soltar, y recién ahí se navega.
+  const SCREEN_CHANGE_DELAY = 150;
+
+  function pressThenGo(el, action) {
+    el.classList.add('is-pressed');
+    setTimeout(() => {
+      el.classList.remove('is-pressed');
+      action();
+    }, SCREEN_CHANGE_DELAY);
   }
 
   // ---------- renderers ----------
@@ -143,21 +167,27 @@
     });
   }
 
+  function navyIcon(path) {
+    return path.replace('.svg', '-navy.svg');
+  }
+
   function renderCategoryBanner(categoryIds) {
     const banner = document.getElementById('category-banner');
     const allSelected = WTD_CATEGORIES.every((c) => categoryIds.includes(c.id));
     if (allSelected) {
       banner.innerHTML = `
-        <img class="px-category-banner-icon" src="assets/icons/cat-todos.svg" alt="">
+        <img class="px-category-banner-icon" src="${navyIcon('assets/icons/cat-todos.svg')}" alt="">
         <span class="px-category-banner-label">Todos los temas</span>
+        <span class="px-deco-btn"><img src="assets/icons/pin.svg" alt=""></span>
       `;
       return;
     }
     const cat = WTD_CATEGORIES.find((c) => categoryIds.includes(c.id));
     if (!cat) return;
     banner.innerHTML = `
-      <img class="px-category-banner-icon" src="${cat.icon}" alt="">
+      <img class="px-category-banner-icon" src="${navyIcon(cat.icon)}" alt="">
       <span class="px-category-banner-label">${cat.name}</span>
+      <span class="px-deco-btn"><img src="assets/icons/pin.svg" alt=""></span>
     `;
   }
 
@@ -211,17 +241,22 @@
       const card = document.createElement('div');
       card.className = 'favorite-card';
       card.innerHTML = `
-        <div class="fav-category">${cats.map((c) => c.name).join(' · ')}</div>
-        <p class="fav-phrase">${fav.text}</p>
-        <button class="fav-delete" aria-label="Eliminar">🗑</button>
+        <div class="fav-content">
+          <div class="fav-category">${cats.map((c) => c.name).join(' · ')}</div>
+          <p class="fav-phrase">${fav.text}</p>
+        </div>
+        <button class="fav-delete" aria-label="Eliminar"><img src="assets/icons/trash.svg" alt=""></button>
       `;
-      card.querySelector('.fav-delete').addEventListener('click', () => {
-        const updated = loadFavorites().filter((f) => f.text !== fav.text);
-        saveFavorites(updated);
-        renderFavoritesScreen();
-        if (history[historyIndex] && history[historyIndex].text === fav.text) {
-          updateFavToggle(history[historyIndex]);
-        }
+      const deleteBtn = card.querySelector('.fav-delete');
+      deleteBtn.addEventListener('click', function () {
+        pressThenGo(this, () => {
+          const updated = loadFavorites().filter((f) => f.text !== fav.text);
+          saveFavorites(updated);
+          renderFavoritesScreen();
+          if (history[historyIndex] && history[historyIndex].text === fav.text) {
+            updateFavToggle(history[historyIndex]);
+          }
+        });
       });
       list.appendChild(card);
     });
@@ -238,43 +273,57 @@
     });
     document.getElementById('btn-generate').disabled = state.slots.size === 0;
 
-    document.getElementById('btn-to-slots').addEventListener('click', () => {
-      renderCategoryBanner([...state.categories]);
-      goToScreen('screen-slots');
+    document.getElementById('btn-to-slots').addEventListener('click', function () {
+      pressThenGo(this, () => {
+        renderCategoryBanner([...state.categories]);
+        goToScreen('screen-slots');
+      });
     });
 
-    document.getElementById('btn-generate').addEventListener('click', () => {
-      generateAndShow();
-      goToScreen('screen-result');
+    document.getElementById('btn-generate').addEventListener('click', function () {
+      pressThenGo(this, () => {
+        generateAndShow();
+        goToScreen('screen-result');
+      });
     });
 
-    document.getElementById('btn-regenerate').addEventListener('click', generateAndShow);
-
-    document.getElementById('btn-undo').addEventListener('click', () => {
-      if (historyIndex > 0) {
-        historyIndex -= 1;
-        renderResult(history[historyIndex]);
-      }
+    document.getElementById('btn-regenerate').addEventListener('click', function () {
+      pressThenGo(this, generateAndShow);
     });
 
-    document.getElementById('btn-fav-toggle').addEventListener('click', () => {
-      const entry = history[historyIndex];
-      if (!entry) return;
-      let favs = loadFavorites();
-      const isFav = favs.some((f) => f.text === entry.text);
-      if (isFav) {
-        favs = favs.filter((f) => f.text !== entry.text);
-      } else {
-        favs.push(entry);
-      }
-      saveFavorites(favs);
-      updateFavToggle(entry);
+    document.getElementById('btn-undo').addEventListener('click', function () {
+      pressThenGo(this, () => {
+        if (historyIndex > 0) {
+          historyIndex -= 1;
+          renderResult(history[historyIndex]);
+        }
+      });
     });
 
-    document.getElementById('btn-back').addEventListener('click', goBack);
-    document.getElementById('btn-favs').addEventListener('click', () => {
-      renderFavoritesScreen();
-      goToScreen('screen-favorites');
+    document.getElementById('btn-fav-toggle').addEventListener('click', function () {
+      pressThenGo(this, () => {
+        const entry = history[historyIndex];
+        if (!entry) return;
+        let favs = loadFavorites();
+        const isFav = favs.some((f) => f.text === entry.text);
+        if (isFav) {
+          favs = favs.filter((f) => f.text !== entry.text);
+        } else {
+          favs.push(entry);
+        }
+        saveFavorites(favs);
+        updateFavToggle(entry);
+      });
+    });
+
+    document.getElementById('btn-back').addEventListener('click', function () {
+      pressThenGo(this, goBack);
+    });
+    document.getElementById('btn-favs').addEventListener('click', function () {
+      pressThenGo(this, () => {
+        renderFavoritesScreen();
+        goToScreen('screen-favorites');
+      });
     });
 
     switchScreen('screen-categories');

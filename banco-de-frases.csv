@@ -1,0 +1,385 @@
+categoria_id,categoria_nombre,slot_id,slot_nombre,frase
+fantasia,Fantasía medieval,personaje,Personaje,un caballero errante
+fantasia,Fantasía medieval,personaje,Personaje,una hechicera del bosque
+fantasia,Fantasía medieval,personaje,Personaje,un herrero real
+fantasia,Fantasía medieval,personaje,Personaje,un juglar itinerante
+fantasia,Fantasía medieval,criatura,Criatura,un dragón anciano
+fantasia,Fantasía medieval,criatura,Criatura,un ogro de las montañas
+fantasia,Fantasía medieval,criatura,Criatura,una arpía de alas doradas
+fantasia,Fantasía medieval,criatura,Criatura,un trasgo de las cuevas
+fantasia,Fantasía medieval,animal,Animal,un caballo blanco
+fantasia,Fantasía medieval,animal,Animal,un halcón peregrino
+fantasia,Fantasía medieval,animal,Animal,un lobo gris
+fantasia,Fantasía medieval,animal,Animal,un cuervo negro
+fantasia,Fantasía medieval,vehiculo,Vehículo,una carreta de madera
+fantasia,Fantasía medieval,vehiculo,Vehículo,un carruaje real
+fantasia,Fantasía medieval,vehiculo,Vehículo,una balsa de troncos
+fantasia,Fantasía medieval,vehiculo,Vehículo,un carro de guerra
+fantasia,Fantasía medieval,objeto,Objeto,un pergamino enrollado
+fantasia,Fantasía medieval,objeto,Objeto,una llave de bronce
+fantasia,Fantasía medieval,objeto,Objeto,un cofre pequeño
+fantasia,Fantasía medieval,objeto,Objeto,un candelabro de hierro
+fantasia,Fantasía medieval,atributo,Atributo,con una cicatriz en forma de estrella
+fantasia,Fantasía medieval,atributo,Atributo,con ojos que brillan en la oscuridad
+fantasia,Fantasía medieval,atributo,Atributo,con una cola hecha de fuego frío
+fantasia,Fantasía medieval,atributo,Atributo,con la piel cubierta de escamas doradas
+fantasia,Fantasía medieval,ropa,Ropa,con una capa raída
+fantasia,Fantasía medieval,ropa,Ropa,con una túnica de terciopelo
+fantasia,Fantasía medieval,ropa,Ropa,con una armadura oxidada
+fantasia,Fantasía medieval,ropa,Ropa,con un manto bordado
+fantasia,Fantasía medieval,accesorio,Accesorio,con un amuleto de piedra
+fantasia,Fantasía medieval,accesorio,Accesorio,con un anillo de sello
+fantasia,Fantasía medieval,accesorio,Accesorio,con una corona de laurel
+fantasia,Fantasía medieval,accesorio,Accesorio,con unos guantes de cuero fino
+fantasia,Fantasía medieval,arma,Arma,con una espada de doble filo
+fantasia,Fantasía medieval,arma,Arma,con un arco largo
+fantasia,Fantasía medieval,arma,Arma,con una lanza de roble
+fantasia,Fantasía medieval,arma,Arma,con un hacha de guerra
+fantasia,Fantasía medieval,habilidad,Habilidad,que puede lanzar hechizos de fuego
+fantasia,Fantasía medieval,habilidad,Habilidad,que puede hablar con los animales
+fantasia,Fantasía medieval,habilidad,Habilidad,que tiene fuerza sobrehumana
+fantasia,Fantasía medieval,habilidad,Habilidad,que puede volverse invisible
+fantasia,Fantasía medieval,material,Material,hecho de oro macizo
+fantasia,Fantasía medieval,material,Material,hecho de piedra tallada
+fantasia,Fantasía medieval,material,Material,hecho de madera de roble
+fantasia,Fantasía medieval,material,Material,hecho de hierro forjado
+fantasia,Fantasía medieval,lugar,Lugar,frente a un castillo en ruinas
+fantasia,Fantasía medieval,lugar,Lugar,dentro de una taberna iluminada por velas
+fantasia,Fantasía medieval,lugar,Lugar,en lo alto de una torre de piedra
+fantasia,Fantasía medieval,lugar,Lugar,junto a un puente de piedra sobre un río
+fantasia,Fantasía medieval,clima,Clima,bajo una tormenta de rayos
+fantasia,Fantasía medieval,clima,Clima,con niebla espesa cubriendo el suelo
+fantasia,Fantasía medieval,clima,Clima,durante una nevada silenciosa
+fantasia,Fantasía medieval,clima,Clima,bajo un cielo rojizo al atardecer
+fantasia,Fantasía medieval,accion,Acción,mientras desenvaina su espada
+fantasia,Fantasía medieval,accion,Acción,mientras lee un libro de hechizos
+fantasia,Fantasía medieval,accion,Acción,mientras cabalga a toda velocidad
+fantasia,Fantasía medieval,accion,Acción,mientras enciende una hoguera
+fantasia,Fantasía medieval,planta,Planta,rodeado de enredaderas espinosas
+fantasia,Fantasía medieval,planta,Planta,junto a un roble centenario
+fantasia,Fantasía medieval,planta,Planta,entre flores silvestres moradas
+fantasia,Fantasía medieval,planta,Planta,cerca de un árbol retorcido sin hojas
+fantasia,Fantasía medieval,comida,Comida,sosteniendo una jarra de cerveza
+fantasia,Fantasía medieval,comida,Comida,comiendo un trozo de pan con queso
+fantasia,Fantasía medieval,comida,Comida,con un cuenco de estofado humeante
+fantasia,Fantasía medieval,comida,Comida,sosteniendo una manzana roja
+editorial,Editorial y cartoon,personaje,Personaje,un político con cara de circunstancia
+editorial,Editorial y cartoon,personaje,Personaje,una abuela chismosa
+editorial,Editorial y cartoon,personaje,Personaje,un oficinista estresado
+editorial,Editorial y cartoon,personaje,Personaje,un influencer exagerado
+editorial,Editorial y cartoon,criatura,Criatura,un monstruo de closet tímido
+editorial,Editorial y cartoon,criatura,Criatura,un fantasma torpe
+editorial,Editorial y cartoon,criatura,Criatura,un duende de oficina
+editorial,Editorial y cartoon,criatura,Criatura,un extraterrestre confundido
+editorial,Editorial y cartoon,animal,Animal,un gato gordo
+editorial,Editorial y cartoon,animal,Animal,un perro salchicha
+editorial,Editorial y cartoon,animal,Animal,un pingüino regordete
+editorial,Editorial y cartoon,animal,Animal,una gallina despeinada
+editorial,Editorial y cartoon,vehiculo,Vehículo,un auto viejo y abollado
+editorial,Editorial y cartoon,vehiculo,Vehículo,una bicicleta oxidada
+editorial,Editorial y cartoon,vehiculo,Vehículo,un scooter eléctrico pequeño
+editorial,Editorial y cartoon,vehiculo,Vehículo,una patineta desgastada
+editorial,Editorial y cartoon,objeto,Objeto,un maletín gastado
+editorial,Editorial y cartoon,objeto,Objeto,una taza de café gigante
+editorial,Editorial y cartoon,objeto,Objeto,un paraguas roto
+editorial,Editorial y cartoon,objeto,Objeto,un teléfono con la pantalla rota
+editorial,Editorial y cartoon,atributo,Atributo,con una papada enorme
+editorial,Editorial y cartoon,atributo,Atributo,con lentes gruesos que agrandan los ojos
+editorial,Editorial y cartoon,atributo,Atributo,con una sonrisa nerviosa exagerada
+editorial,Editorial y cartoon,atributo,Atributo,con las cejas permanentemente levantadas
+editorial,Editorial y cartoon,ropa,Ropa,con una corbata torcida
+editorial,Editorial y cartoon,ropa,Ropa,con una bata de baño
+editorial,Editorial y cartoon,ropa,Ropa,con un traje tres tallas más grande
+editorial,Editorial y cartoon,ropa,Ropa,con calcetines de rombos desparejados
+editorial,Editorial y cartoon,accesorio,Accesorio,con un reloj de pulsera enorme
+editorial,Editorial y cartoon,accesorio,Accesorio,con una placa de identificación torcida
+editorial,Editorial y cartoon,accesorio,Accesorio,con unos audífonos gigantes
+editorial,Editorial y cartoon,accesorio,Accesorio,con un prendedor con forma de dona
+editorial,Editorial y cartoon,arma,Arma,con un paraguas como si fuera espada
+editorial,Editorial y cartoon,arma,Arma,con un matamoscas gigante
+editorial,Editorial y cartoon,arma,Arma,con un megáfono
+editorial,Editorial y cartoon,arma,Arma,con una regla de madera como arma improvisada
+editorial,Editorial y cartoon,habilidad,Habilidad,que siempre llega tarde a todo
+editorial,Editorial y cartoon,habilidad,Habilidad,que se tropieza con sus propios pies
+editorial,Editorial y cartoon,habilidad,Habilidad,que grita en las reuniones
+editorial,Editorial y cartoon,habilidad,Habilidad,que duerme con los ojos abiertos
+editorial,Editorial y cartoon,material,Material,hecho de cartón corrugado
+editorial,Editorial y cartoon,material,Material,hecho de plástico barato
+editorial,Editorial y cartoon,material,Material,hecho de goma elástica
+editorial,Editorial y cartoon,material,Material,hecho de papel reciclado
+editorial,Editorial y cartoon,lugar,Lugar,en medio de un embotellamiento
+editorial,Editorial y cartoon,lugar,Lugar,dentro de una oficina con cubículos apretados
+editorial,Editorial y cartoon,lugar,Lugar,en la fila del supermercado
+editorial,Editorial y cartoon,lugar,Lugar,en una sala de espera abarrotada
+editorial,Editorial y cartoon,clima,Clima,bajo un sol que derrite el asfalto
+editorial,Editorial y cartoon,clima,Clima,con lluvia que arruina el peinado
+editorial,Editorial y cartoon,clima,Clima,en un día ventoso que vuela los papeles
+editorial,Editorial y cartoon,clima,Clima,bajo un smog espeso
+editorial,Editorial y cartoon,accion,Acción,mientras revisa el celular sin parar
+editorial,Editorial y cartoon,accion,Acción,mientras derrama el café encima
+editorial,Editorial y cartoon,accion,Acción,mientras discute por teléfono
+editorial,Editorial y cartoon,accion,Acción,mientras firma papeles sin leerlos
+editorial,Editorial y cartoon,planta,Planta,junto a una planta de oficina medio muerta
+editorial,Editorial y cartoon,planta,Planta,entre macetas de plástico desordenadas
+editorial,Editorial y cartoon,planta,Planta,cerca de un árbol lleno de globos perdidos
+editorial,Editorial y cartoon,planta,Planta,con un cactus torcido en el escritorio
+editorial,Editorial y cartoon,comida,Comida,sosteniendo una dona a medio comer
+editorial,Editorial y cartoon,comida,Comida,con un vaso de café para llevar
+editorial,Editorial y cartoon,comida,Comida,comiendo fideos instantáneos de un vaso
+editorial,Editorial y cartoon,comida,Comida,sosteniendo una hamburguesa gigante
+cienciaficcion,Ciencia Ficción,personaje,Personaje,un piloto de nave espacial
+cienciaficcion,Ciencia Ficción,personaje,Personaje,una científica genética
+cienciaficcion,Ciencia Ficción,personaje,Personaje,un explorador de otro planeta
+cienciaficcion,Ciencia Ficción,personaje,Personaje,un soldado cibernético
+cienciaficcion,Ciencia Ficción,criatura,Criatura,un alienígena de tres ojos
+cienciaficcion,Ciencia Ficción,criatura,Criatura,una criatura mutante radiactiva
+cienciaficcion,Ciencia Ficción,criatura,Criatura,un enjambre de nanobots con forma animal
+cienciaficcion,Ciencia Ficción,criatura,Criatura,un depredador de otro planeta
+cienciaficcion,Ciencia Ficción,animal,Animal,un gato blanco
+cienciaficcion,Ciencia Ficción,animal,Animal,un cuervo gris
+cienciaficcion,Ciencia Ficción,animal,Animal,un perro pequeño
+cienciaficcion,Ciencia Ficción,animal,Animal,un halcón marrón
+cienciaficcion,Ciencia Ficción,vehiculo,Vehículo,una nave espacial plateada
+cienciaficcion,Ciencia Ficción,vehiculo,Vehículo,un vehículo flotante
+cienciaficcion,Ciencia Ficción,vehiculo,Vehículo,un rover todo terreno
+cienciaficcion,Ciencia Ficción,vehiculo,Vehículo,una moto propulsada por reactores
+cienciaficcion,Ciencia Ficción,objeto,Objeto,un escáner portátil
+cienciaficcion,Ciencia Ficción,objeto,Objeto,un dispositivo holográfico
+cienciaficcion,Ciencia Ficción,objeto,Objeto,una esfera de energía
+cienciaficcion,Ciencia Ficción,objeto,Objeto,un mapa estelar digital
+cienciaficcion,Ciencia Ficción,atributo,Atributo,con un brazo biónico
+cienciaficcion,Ciencia Ficción,atributo,Atributo,con ojos que emiten luz azul
+cienciaficcion,Ciencia Ficción,atributo,Atributo,con piel metálica
+cienciaficcion,Ciencia Ficción,atributo,Atributo,con un tercer ojo en la frente
+cienciaficcion,Ciencia Ficción,ropa,Ropa,con un traje espacial ajustado
+cienciaficcion,Ciencia Ficción,ropa,Ropa,con una chaqueta futurista con luces led
+cienciaficcion,Ciencia Ficción,ropa,Ropa,con un uniforme militar espacial
+cienciaficcion,Ciencia Ficción,ropa,Ropa,con una bata de laboratorio
+cienciaficcion,Ciencia Ficción,accesorio,Accesorio,con un visor de realidad aumentada
+cienciaficcion,Ciencia Ficción,accesorio,Accesorio,con un implante en la sien
+cienciaficcion,Ciencia Ficción,accesorio,Accesorio,con un collar con pantalla digital
+cienciaficcion,Ciencia Ficción,accesorio,Accesorio,con guantes tecnológicos con botones
+cienciaficcion,Ciencia Ficción,arma,Arma,con una pistola láser
+cienciaficcion,Ciencia Ficción,arma,Arma,con un sable de energía
+cienciaficcion,Ciencia Ficción,arma,Arma,con un lanzallamas de plasma
+cienciaficcion,Ciencia Ficción,arma,Arma,con un rifle de pulsos
+cienciaficcion,Ciencia Ficción,habilidad,Habilidad,que puede teletransportarse
+cienciaficcion,Ciencia Ficción,habilidad,Habilidad,que controla la tecnología con la mente
+cienciaficcion,Ciencia Ficción,habilidad,Habilidad,que tiene visión de rayos x
+cienciaficcion,Ciencia Ficción,habilidad,Habilidad,que puede hackear cualquier sistema
+cienciaficcion,Ciencia Ficción,material,Material,hecho de metal cromado
+cienciaficcion,Ciencia Ficción,material,Material,hecho de fibra de carbono
+cienciaficcion,Ciencia Ficción,material,Material,hecho de vidrio reforzado
+cienciaficcion,Ciencia Ficción,material,Material,hecho de aleación desconocida
+cienciaficcion,Ciencia Ficción,lugar,Lugar,dentro de una nave espacial
+cienciaficcion,Ciencia Ficción,lugar,Lugar,en una estación orbital
+cienciaficcion,Ciencia Ficción,lugar,Lugar,sobre la superficie de un planeta desértico
+cienciaficcion,Ciencia Ficción,lugar,Lugar,en un laboratorio futurista lleno de pantallas
+cienciaficcion,Ciencia Ficción,clima,Clima,bajo una lluvia ácida
+cienciaficcion,Ciencia Ficción,clima,Clima,en medio de una tormenta de asteroides
+cienciaficcion,Ciencia Ficción,clima,Clima,con gravedad reducida flotando en el aire
+cienciaficcion,Ciencia Ficción,clima,Clima,bajo dos soles brillantes
+cienciaficcion,Ciencia Ficción,accion,Acción,mientras pilota una nave
+cienciaficcion,Ciencia Ficción,accion,Acción,mientras repara un robot
+cienciaficcion,Ciencia Ficción,accion,Acción,mientras analiza datos en una pantalla holográfica
+cienciaficcion,Ciencia Ficción,accion,Acción,mientras escapa de un peligro
+cienciaficcion,Ciencia Ficción,planta,Planta,entre plantas bioluminiscentes
+cienciaficcion,Ciencia Ficción,planta,Planta,cerca de árboles con hojas metálicas
+cienciaficcion,Ciencia Ficción,planta,Planta,junto a un jardín hidropónico
+cienciaficcion,Ciencia Ficción,planta,Planta,rodeado de esporas flotantes
+cienciaficcion,Ciencia Ficción,comida,Comida,sosteniendo una bebida energética futurista
+cienciaficcion,Ciencia Ficción,comida,Comida,comiendo una pastilla de comida concentrada
+cienciaficcion,Ciencia Ficción,comida,Comida,con un tubo de nutrientes
+cienciaficcion,Ciencia Ficción,comida,Comida,sosteniendo fruta cultivada en un invernadero espacial
+terror,Terror y misterio,personaje,Personaje,un doctor de mirada perturbadora
+terror,Terror y misterio,personaje,Personaje,una niña que no parpadea
+terror,Terror y misterio,personaje,Personaje,un enterrador solitario
+terror,Terror y misterio,personaje,Personaje,un paciente de manicomio abandonado
+terror,Terror y misterio,criatura,Criatura,un fantasma encadenado
+terror,Terror y misterio,criatura,Criatura,una sombra con forma humana
+terror,Terror y misterio,criatura,Criatura,un demonio de ojos rojos
+terror,Terror y misterio,criatura,Criatura,una criatura que se arrastra por las paredes
+terror,Terror y misterio,animal,Animal,un cuervo negro
+terror,Terror y misterio,animal,Animal,una rata gris
+terror,Terror y misterio,animal,Animal,un murciélago pequeño
+terror,Terror y misterio,animal,Animal,un gato negro
+terror,Terror y misterio,vehiculo,Vehículo,una ambulancia abandonada
+terror,Terror y misterio,vehiculo,Vehículo,un tren fantasma detenido
+terror,Terror y misterio,vehiculo,Vehículo,una carreta funeraria vieja
+terror,Terror y misterio,vehiculo,Vehículo,un auto sin conductor
+terror,Terror y misterio,objeto,Objeto,una muñeca de porcelana agrietada
+terror,Terror y misterio,objeto,Objeto,un espejo antiguo
+terror,Terror y misterio,objeto,Objeto,una caja de música oxidada
+terror,Terror y misterio,objeto,Objeto,un diario con páginas arrancadas
+terror,Terror y misterio,atributo,Atributo,con la piel pálida como la muerte
+terror,Terror y misterio,atributo,Atributo,con las manos cubiertas de sangre seca
+terror,Terror y misterio,atributo,Atributo,con una sonrisa que no debería existir
+terror,Terror y misterio,atributo,Atributo,con los ojos completamente negros
+terror,Terror y misterio,ropa,Ropa,con un camisón manchado
+terror,Terror y misterio,ropa,Ropa,con una bata de hospital rasgada
+terror,Terror y misterio,ropa,Ropa,con un abrigo negro largo
+terror,Terror y misterio,ropa,Ropa,con un vestido de novia deshilachado
+terror,Terror y misterio,accesorio,Accesorio,con un collar con un relicario oxidado
+terror,Terror y misterio,accesorio,Accesorio,con guantes de cuero negro
+terror,Terror y misterio,accesorio,Accesorio,con un anillo con una piedra oscura
+terror,Terror y misterio,accesorio,Accesorio,con un antifaz de porcelana
+terror,Terror y misterio,arma,Arma,con un cuchillo oxidado
+terror,Terror y misterio,arma,Arma,con un hacha manchada
+terror,Terror y misterio,arma,Arma,con unas tijeras enormes
+terror,Terror y misterio,arma,Arma,con una motosierra vieja
+terror,Terror y misterio,habilidad,Habilidad,que puede aparecer y desaparecer sin aviso
+terror,Terror y misterio,habilidad,Habilidad,que susurra en idiomas desconocidos
+terror,Terror y misterio,habilidad,Habilidad,que controla a otros con la mirada
+terror,Terror y misterio,habilidad,Habilidad,que nunca duerme
+terror,Terror y misterio,material,Material,hecho de hueso
+terror,Terror y misterio,material,Material,hecho de madera podrida
+terror,Terror y misterio,material,Material,hecho de vidrio agrietado
+terror,Terror y misterio,material,Material,hecho de tela raída
+terror,Terror y misterio,lugar,Lugar,dentro de una casa abandonada
+terror,Terror y misterio,lugar,Lugar,en un cementerio cubierto de niebla
+terror,Terror y misterio,lugar,Lugar,en un sótano oscuro y húmedo
+terror,Terror y misterio,lugar,Lugar,frente a un hospital psiquiátrico en ruinas
+terror,Terror y misterio,clima,Clima,bajo una luna llena rojiza
+terror,Terror y misterio,clima,Clima,con niebla que no deja ver más allá de unos metros
+terror,Terror y misterio,clima,Clima,durante una tormenta eléctrica nocturna
+terror,Terror y misterio,clima,Clima,con un silencio antinatural en el aire
+terror,Terror y misterio,accion,Acción,mientras camina arrastrando los pies
+terror,Terror y misterio,accion,Acción,mientras susurra algo inentendible
+terror,Terror y misterio,accion,Acción,mientras observa fijamente desde la ventana
+terror,Terror y misterio,accion,Acción,mientras escribe algo en las paredes
+terror,Terror y misterio,planta,Planta,entre árboles secos y retorcidos
+terror,Terror y misterio,planta,Planta,rodeado de enredaderas muertas
+terror,Terror y misterio,planta,Planta,junto a flores negras marchitas
+terror,Terror y misterio,planta,Planta,entre raíces que sobresalen del suelo
+terror,Terror y misterio,comida,Comida,sosteniendo una manzana podrida
+terror,Terror y misterio,comida,Comida,con un frasco de líquido oscuro
+terror,Terror y misterio,comida,Comida,sosteniendo un trozo de carne cruda
+terror,Terror y misterio,comida,Comida,con una taza de té frío olvidada
+mitologia,Mitología,personaje,Personaje,un oráculo griego
+mitologia,Mitología,personaje,Personaje,una sacerdotisa egipcia
+mitologia,Mitología,personaje,Personaje,un guerrero vikingo
+mitologia,Mitología,personaje,Personaje,un faraón momificado
+mitologia,Mitología,criatura,Criatura,un centauro
+mitologia,Mitología,criatura,Criatura,una esfinge
+mitologia,Mitología,criatura,Criatura,el lobo Fenrir
+mitologia,Mitología,criatura,Criatura,un cancerbero de tres cabezas
+mitologia,Mitología,animal,Animal,una serpiente del Nilo
+mitologia,Mitología,animal,Animal,un águila dorada
+mitologia,Mitología,animal,Animal,un toro sagrado
+mitologia,Mitología,animal,Animal,un búho blanco
+mitologia,Mitología,vehiculo,Vehículo,un carro tirado por caballos
+mitologia,Mitología,vehiculo,Vehículo,una barca solar egipcia
+mitologia,Mitología,vehiculo,Vehículo,un barco vikingo con proa de dragón
+mitologia,Mitología,vehiculo,Vehículo,un carruaje dorado de los dioses
+mitologia,Mitología,objeto,Objeto,un cetro dorado
+mitologia,Mitología,objeto,Objeto,una lira antigua
+mitologia,Mitología,objeto,Objeto,un ánfora de barro
+mitologia,Mitología,objeto,Objeto,una tablilla con jeroglíficos
+mitologia,Mitología,atributo,Atributo,con un rayo en la mano
+mitologia,Mitología,atributo,Atributo,con alas en los talones
+mitologia,Mitología,atributo,Atributo,con la cabeza de un chacal
+mitologia,Mitología,atributo,Atributo,con ojos que ven el pasado y el futuro
+mitologia,Mitología,ropa,Ropa,con una toga blanca
+mitologia,Mitología,ropa,Ropa,con una túnica egipcia bordada en oro
+mitologia,Mitología,ropa,Ropa,con una armadura vikinga de cuero
+mitologia,Mitología,ropa,Ropa,con un manto púrpura de emperador
+mitologia,Mitología,accesorio,Accesorio,con un tocado con forma de serpiente
+mitologia,Mitología,accesorio,Accesorio,con un brazalete de oro
+mitologia,Mitología,accesorio,Accesorio,con una corona de olivo
+mitologia,Mitología,accesorio,Accesorio,con un amuleto en forma de escarabajo
+mitologia,Mitología,arma,Arma,con un tridente
+mitologia,Mitología,arma,Arma,con un martillo de guerra
+mitologia,Mitología,arma,Arma,con un arco de plata
+mitologia,Mitología,arma,Arma,con una espada envuelta en fuego
+mitologia,Mitología,habilidad,Habilidad,que controla los rayos y truenos
+mitologia,Mitología,habilidad,Habilidad,que puede transformarse en cualquier animal
+mitologia,Mitología,habilidad,Habilidad,que guía las almas al inframundo
+mitologia,Mitología,habilidad,Habilidad,que tiene fuerza para mover montañas
+mitologia,Mitología,material,Material,hecho de oro puro
+mitologia,Mitología,material,Material,hecho de mármol blanco
+mitologia,Mitología,material,Material,hecho de bronce antiguo
+mitologia,Mitología,material,Material,hecho de piedra caliza
+mitologia,Mitología,lugar,Lugar,en la cima del monte Olimpo
+mitologia,Mitología,lugar,Lugar,dentro de una pirámide egipcia
+mitologia,Mitología,lugar,Lugar,en el gran salón de Valhalla
+mitologia,Mitología,lugar,Lugar,junto a las orillas del río Nilo
+mitologia,Mitología,clima,Clima,bajo un cielo partido por rayos
+mitologia,Mitología,clima,Clima,con arena levantada por el viento del desierto
+mitologia,Mitología,clima,Clima,entre nubes doradas al amanecer
+mitologia,Mitología,clima,Clima,bajo una aurora boreal
+mitologia,Mitología,accion,Acción,mientras lanza un rayo desde su mano
+mitologia,Mitología,accion,Acción,mientras cruza el río de los muertos
+mitologia,Mitología,accion,Acción,mientras narra una profecía
+mitologia,Mitología,accion,Acción,mientras lucha contra un monstruo marino
+mitologia,Mitología,planta,Planta,junto a un olivo sagrado
+mitologia,Mitología,planta,Planta,entre juncos del Nilo
+mitologia,Mitología,planta,Planta,rodeado de laureles
+mitologia,Mitología,planta,Planta,cerca de un árbol de la vida dorado
+mitologia,Mitología,comida,Comida,sosteniendo una copa de néctar
+mitologia,Mitología,comida,Comida,con un racimo de uvas
+mitologia,Mitología,comida,Comida,sosteniendo pan y cerveza egipcia
+mitologia,Mitología,comida,Comida,con una copa de hidromiel
+estudio,Estudio de dibujo,personaje,Personaje,una persona leyendo un libro
+estudio,Estudio de dibujo,personaje,Personaje,un anciano sentado en un banco
+estudio,Estudio de dibujo,personaje,Personaje,una estudiante escribiendo en un cuaderno
+estudio,Estudio de dibujo,personaje,Personaje,un hombre esperando el bus
+estudio,Estudio de dibujo,criatura,Criatura,un caracol de jardín
+estudio,Estudio de dibujo,criatura,Criatura,una araña común
+estudio,Estudio de dibujo,criatura,Criatura,una mariposa nocturna
+estudio,Estudio de dibujo,criatura,Criatura,un escarabajo pequeño
+estudio,Estudio de dibujo,animal,Animal,un gato doméstico
+estudio,Estudio de dibujo,animal,Animal,un perro labrador
+estudio,Estudio de dibujo,animal,Animal,una paloma común
+estudio,Estudio de dibujo,animal,Animal,un caballo de granja
+estudio,Estudio de dibujo,vehiculo,Vehículo,una bicicleta común
+estudio,Estudio de dibujo,vehiculo,Vehículo,un auto familiar
+estudio,Estudio de dibujo,vehiculo,Vehículo,un autobús urbano
+estudio,Estudio de dibujo,vehiculo,Vehículo,una patineta simple
+estudio,Estudio de dibujo,objeto,Objeto,una taza de cerámica
+estudio,Estudio de dibujo,objeto,Objeto,un libro de tapa dura
+estudio,Estudio de dibujo,objeto,Objeto,una mochila escolar
+estudio,Estudio de dibujo,objeto,Objeto,una cámara fotográfica
+estudio,Estudio de dibujo,atributo,Atributo,con el pelo canoso
+estudio,Estudio de dibujo,atributo,Atributo,con una expresión pensativa
+estudio,Estudio de dibujo,atributo,Atributo,con arrugas alrededor de los ojos
+estudio,Estudio de dibujo,atributo,Atributo,con una postura encorvada
+estudio,Estudio de dibujo,ropa,Ropa,con un suéter de lana
+estudio,Estudio de dibujo,ropa,Ropa,con una chaqueta de mezclilla
+estudio,Estudio de dibujo,ropa,Ropa,con un vestido de algodón
+estudio,Estudio de dibujo,ropa,Ropa,con una camisa a cuadros
+estudio,Estudio de dibujo,accesorio,Accesorio,con lentes de lectura
+estudio,Estudio de dibujo,accesorio,Accesorio,con un reloj de pulsera simple
+estudio,Estudio de dibujo,accesorio,Accesorio,con una bufanda de lana
+estudio,Estudio de dibujo,accesorio,Accesorio,con aros pequeños
+estudio,Estudio de dibujo,arma,Arma,con un martillo en la mano
+estudio,Estudio de dibujo,arma,Arma,con unas tijeras de jardinería
+estudio,Estudio de dibujo,arma,Arma,con un cuchillo de cocina
+estudio,Estudio de dibujo,arma,Arma,con un destornillador
+estudio,Estudio de dibujo,habilidad,Habilidad,que toca el piano con destreza
+estudio,Estudio de dibujo,habilidad,Habilidad,que dibuja con mucho detalle
+estudio,Estudio de dibujo,habilidad,Habilidad,que cocina platos elaborados
+estudio,Estudio de dibujo,habilidad,Habilidad,que teje a mano con rapidez
+estudio,Estudio de dibujo,material,Material,hecho de madera pulida
+estudio,Estudio de dibujo,material,Material,hecho de cerámica pintada
+estudio,Estudio de dibujo,material,Material,hecho de tela de algodón
+estudio,Estudio de dibujo,material,Material,hecho de vidrio soplado
+estudio,Estudio de dibujo,lugar,Lugar,en un parque tranquilo
+estudio,Estudio de dibujo,lugar,Lugar,dentro de una cafetería con ventanas grandes
+estudio,Estudio de dibujo,lugar,Lugar,en la sala de una casa
+estudio,Estudio de dibujo,lugar,Lugar,en una biblioteca silenciosa
+estudio,Estudio de dibujo,clima,Clima,en una tarde soleada
+estudio,Estudio de dibujo,clima,Clima,bajo una llovizna suave
+estudio,Estudio de dibujo,clima,Clima,en una mañana con niebla ligera
+estudio,Estudio de dibujo,clima,Clima,en un día nublado de otoño
+estudio,Estudio de dibujo,accion,Acción,mientras toma una taza de té
+estudio,Estudio de dibujo,accion,Acción,mientras escribe en su diario
+estudio,Estudio de dibujo,accion,Acción,mientras riega las plantas
+estudio,Estudio de dibujo,accion,Acción,mientras camina con su perro
+estudio,Estudio de dibujo,planta,Planta,junto a una maceta de geranios
+estudio,Estudio de dibujo,planta,Planta,entre árboles de un parque
+estudio,Estudio de dibujo,planta,Planta,cerca de un jardín de hierbas
+estudio,Estudio de dibujo,planta,Planta,con un florero de girasoles en la mesa
+estudio,Estudio de dibujo,comida,Comida,sosteniendo una taza de café
+estudio,Estudio de dibujo,comida,Comida,comiendo una tostada con mermelada
+estudio,Estudio de dibujo,comida,Comida,con un plato de fruta fresca
+estudio,Estudio de dibujo,comida,Comida,sosteniendo un vaso de jugo de naranja
