@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What to Draw — Generador de ideas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="px-header">
+  <button id="btn-back" class="px-icon-btn" aria-label="Atrás">
+    <img src="assets/icons/back-arrow.svg" class="px-icon-img" alt="">
+  </button>
+  <h1 id="header-title" class="px-header-title">¿Qué quieres dibujar?</h1>
+  <button id="btn-favs" class="px-icon-btn" aria-label="Favoritos">
+    <img src="assets/icons/heart-outline.svg" class="px-icon-img" alt="">
+  </button>
+</header>
+
+<main id="app">
+
+  <!-- PANTALLA 1: elegir categorías -->
+  <section id="screen-categories" class="screen active">
+    <div class="px-window">
+      <div class="px-titlebar">
+        <span class="px-titlebar-label">Elige una categoría:</span>
+        <span class="px-titlebar-controls">
+          <button type="button" class="px-mini-btn" aria-label="Ayuda">?</button>
+          <button type="button" class="px-mini-btn" aria-label="Cerrar">&times;</button>
+        </span>
+      </div>
+      <div class="px-body">
+        <div id="category-grid" class="px-pill-list"></div>
+        <button id="btn-to-slots" class="px-primary-btn px-primary-btn--pink" disabled>Continuar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PANTALLA 2: elegir elementos del prompt -->
+  <section id="screen-slots" class="screen">
+    <div class="px-window">
+      <div class="px-titlebar">
+        <span class="px-titlebar-label">Elige qué elementos quieres:</span>
+        <span class="px-titlebar-controls">
+          <button type="button" class="px-mini-btn" aria-label="Ayuda">?</button>
+          <button type="button" class="px-mini-btn" aria-label="Cerrar">&times;</button>
+        </span>
+      </div>
+      <div class="px-body">
+        <div id="category-banner" class="px-category-banner"></div>
+        <div id="slot-grid" class="px-pill-grid"></div>
+        <button id="btn-generate" class="px-primary-btn px-primary-btn--teal" disabled>
+          <img src="assets/icons/star.svg" class="px-btn-icon" alt="">
+          <span>Generar idea</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PANTALLA 3: resultado -->
+  <section id="screen-result" class="screen">
+    <div class="px-window">
+      <div class="px-titlebar">
+        <span class="px-titlebar-label">Tu idea para dibujar:</span>
+        <span class="px-titlebar-controls">
+          <button type="button" class="px-mini-btn" aria-label="Ayuda">?</button>
+          <button type="button" class="px-mini-btn" aria-label="Cerrar">&times;</button>
+        </span>
+      </div>
+      <div class="px-body">
+        <p id="result-phrase" class="px-result-phrase"></p>
+        <div class="px-result-actions">
+          <button id="btn-undo" class="px-icon-btn px-icon-btn--lg" aria-label="Anterior" title="Frase anterior">
+            <img src="assets/icons/undo.svg" class="px-icon-img-lg" alt="">
+          </button>
+          <button id="btn-fav-toggle" class="px-icon-btn px-icon-btn--lg" aria-label="Favorito" title="Guardar en favoritos">
+            <img id="result-fav-icon" src="assets/icons/heart-outline.svg" class="px-icon-img-lg" alt="">
+          </button>
+        </div>
+        <button id="btn-regenerate" class="px-primary-btn px-primary-btn--blue">
+          <img src="assets/icons/star.svg" class="px-btn-icon" alt="">
+          <span>Nueva frase</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PANTALLA 4: favoritos -->
+  <section id="screen-favorites" class="screen">
+    <p class="screen-hint">Tus ideas guardadas.</p>
+    <div id="favorites-list" class="favorites-list"></div>
+    <p id="favorites-empty" class="empty-msg hidden">Aún no guardaste ninguna idea. Toca el corazón en una frase para guardarla aquí.</p>
+  </section>
+
+</main>
+
+<img src="assets/icons/decor-bottom.svg" class="px-decor" alt="" aria-hidden="true">
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
